@@ -1,11 +1,18 @@
+# #-#-#-#-#  ja.po (Battle for Wesnoth VERSION)  #-#-#-#-#
+# Japanese translations for Battle for Wesnoth package.
+# Copyright (C) 2006 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+# R.N <dragonfly65th@yahoo.co.jp>, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-04-19 17:54+0200\n"
-"PO-Revision-Date: 2010-04-19 17:54+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2010-12-14 22:07+0900\n"
+"Last-Translator: dragonfly65th@yahoo.co.jp\n"
+"Language-Team: Japanese Translation Team\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +21,7 @@ msgstr ""
 #. [campaign]: id=ooze_campaign
 #: Ooze_Mini_Campaign/_main.cfg:8
 msgid "Ooze Mini-Campaign"
-msgstr ""
+msgstr "「泥」のミニ・キャンペーン"
 
 #. [campaign]: id=ooze_campaign
 #: Ooze_Mini_Campaign/_main.cfg:22
@@ -31,36 +38,47 @@ msgid ""
 "Note: Muliplayer has only been implemented for the first scenario and has "
 "not been playtested for Wesnoth v1.8."
 msgstr ""
+"あなたは一匹の「泥」で、飢えています。あなたの領地に入ってきた、愚かな侵入者"
+"を貪り食って下さい！ RPGレベルを含む、4つのレベル。バージョン 1.2.8。\n"
+"\n"
+"SpenceLack: キャンペーンの作成とメンテナンス\n"
+"CIB: メンテナンスと MP モード\n"
+"megane: SpiderBaby のイメージと madcrawler 系の色変更\n"
+"mich: メンテナンスと翻訳\n"
+"rockscorpion: 翻訳\n"
+"\n"
+"注意: マルチプレーヤーでの実行は最初のシナリオだけであり、Wesnoth v1.8 のため"
+"のプレイテストはされていません。"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:44
 msgid "Ruined Laboratory"
-msgstr ""
+msgstr "荒廃した研究所"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:48
 msgid "Flooded Ruins"
-msgstr ""
+msgstr "水没した廃墟"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:52
 msgid "Spider Den"
-msgstr ""
+msgstr "蜘蛛の巣窟"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:56
 msgid "Goblin Village"
-msgstr ""
+msgstr "ゴブリンの村"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:60
 msgid "Thieves' Guild"
-msgstr ""
+msgstr "盗賊ギルド"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:64
 msgid "To the Surface"
-msgstr ""
+msgstr "地上へ"
 
 #. [side]: id=Master Ooze, type=Giant Ooze
 #. [event]
@@ -76,55 +94,58 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:685
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:719
 msgid "Master Ooze"
-msgstr ""
+msgstr "泥の支配者"
 
 #. [side]: type=Sergeant, id=Militia Leader
 #. [event]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:119
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:261
 msgid "Militia Leader"
-msgstr ""
+msgstr "民兵のリーダー"
 
 #. [side]: type=Footpad, id=Thief Leader
 #. [event]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:144
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:262
 msgid "Thief Leader"
-msgstr ""
+msgstr "盗賊の首領"
 
 #. [side]: type=Goblin Rouser, id=Goblin Chieftan
 #. [event]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:168
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:263
 msgid "Goblin Chieftan"
-msgstr ""
+msgstr "ゴブリンの酋長"
 
 #. [side]: type=Blood Bat, id=Bloated Bat
 #. [event]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:191
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:264
 msgid "Bloated Bat"
-msgstr ""
+msgstr "膨満したコウモリ"
 
 #. [side]: type=Giant Spider, id=Spider Queen
 #. [event]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:214
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:265
 msgid "Spider Queen"
-msgstr ""
+msgstr "蜘蛛の女王"
 
+# 勝利条件
 #. [objective]: condition=win
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:233
 msgid ""
 "Your home is no longer safe. Devour the human Militia Leader to escape "
 "outside"
 msgstr ""
+"あなたの家は、もはや安全ではない。外部へ脱出するため、民兵のリーダーを貪り喰"
+"らえ。"
 
 #. [objective]: condition=win
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:237
 msgid ""
 "(Optional) Killing other enemy leaders could be a rewarding experience..."
-msgstr ""
+msgstr "（任意）他の敵のリーダーを倒すのは、価値のある経験かもしれない……"
 
 #. [objective]: condition=lose
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:241
@@ -134,14 +155,14 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:178
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:478
 msgid "Death of the Master Ooze"
-msgstr ""
+msgstr "泥の支配者の死"
 
 #. [event]
 #. [unit]: type=Giant Ooze 2, id=Master Ooze 2
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:260
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:407
 msgid "Master Ooze 2"
-msgstr ""
+msgstr "泥の支配者 2"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:346
@@ -149,6 +170,9 @@ msgid ""
 "You have only vague ideas of how you came into being, or how long you've "
 "lived. All you know is that you're an ooze, and you're hungry!"
 msgstr ""
+"あなたには自分がどのように生まれたか、どの位の間生きてきたかに関して、ただ漠"
+"然とした感じしかありません。あなたが知っている全ては、自分が「泥」であり、飢"
+"えているという事だけです！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:350
@@ -156,6 +180,8 @@ msgid ""
 "By engulfing enemies and digesting them, you can create smaller copies of "
 "yourself!"
 msgstr ""
+"敵を飲み込み、消化する事によって、あなたはあなた自身の小さなコピーを生み出す"
+"事が出来ます！"
 
 #. [message]: id=Militia Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:354
@@ -163,6 +189,8 @@ msgid ""
 "I'm certain the goblins who raided our town fled into these caves. Be on "
 "your guard men!"
 msgstr ""
+"我々の街を襲ったゴブリンが、この洞窟の中に逃げ込んだと私は確信している。衛兵"
+"は気を抜くな！"
 
 #. [message]: id=Militia Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:358
@@ -170,12 +198,16 @@ msgid ""
 "Once an evil wizard used these caves for his unholy experiments. There's no "
 "telling what sort of monsters we could run into down here."
 msgstr ""
+"かつて、邪悪な魔法使いがこの洞窟を不浄な実験のために使った。ここでどんな怪物"
+"と出くわすことになるのか分からん。"
 
 #. [message]: id=Goblin Chieftan
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:362
 msgid ""
 "Hrrr...so...human want fight, eh? We give them fight! They all die today!"
 msgstr ""
+"フゥゥ……そうか……人間どもは戦いを望むか、えぇ？ 戦いをくれてやる！ お前たちは"
+"全員今日死ぬ！"
 
 #. [message]: id=Thief Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:366
@@ -184,6 +216,9 @@ msgid ""
 "something nobody knows about! But between the monsters and the goblins and "
 "the militias, this place is busier than Tarakin City on market day!"
 msgstr ""
+"くそ！ この洞窟は俺たちの秘密の隠れ家だと思ったのに！ 秘密ってのは、誰もそれ"
+"を知らないってこった！ なのに、怪物だのゴブリンだの民兵だの、ここは Tarakin "
+"市の市場の日よりも賑やかだぜ！"
 
 #. [message]: id=Thief Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:370
@@ -191,6 +226,8 @@ msgid ""
 "Grab yer loot boys; we're fight'n our way outta this place. Anyone who gets "
 "in our way gets their head split open, aye?"
 msgstr ""
+"お宝をつかめ。俺たちはここから出るために戦わなきゃならんぞ。俺たちの道を邪魔"
+"する連中の頭をかち割って、な？"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:374
@@ -198,6 +235,8 @@ msgid ""
 "Food, food, FOOD! You've never seen so much food before! Your gelatinous "
 "form quivers with excitement as your meals approach."
 msgstr ""
+"食べ物、食料、餌！ あなたは以前、これほど沢山の食料を見た事がありません！ 食"
+"料が近づくに従って、あなたのゼリー状の体は興奮で震えます。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:378
@@ -206,29 +245,34 @@ msgid ""
 "sticks to poke you with, or pieces of wood to club you with. You realize "
 "that you may be overwhelmed by the sheer numbers of prey heading your way."
 msgstr ""
+"しかし、あなたの手先に無害ではありません。あなたは、彼らの多くがあなたを突く"
+"ための鋭い棒や、あなたを殴るための木片を持っていることに気付きます。あなた"
+"は、やり方によってあなたの手先が絶対的な数で圧倒されるかもしれないことを悟り"
+"ます。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:382
 msgid ""
 "Perhaps it would be better to relocate to some place where the prey isn't so "
 "dangerous..."
-msgstr ""
+msgstr "恐らく、獲物がそれほど危険ではないどこかに移動した方が良いでしょう……"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:386
 msgid ""
 "You split yourself into smaller pieces to prepare for the coming onslaught..."
-msgstr ""
+msgstr "あなたは来るべき猛攻に備えるために、自分をより小さな断片に分けました……"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:416
 msgid "What is that? One of your parts seems to have developed his own will!"
 msgstr ""
+"何という事か？ あなたの分身の一つは、それ自身の意志で成長したように思えます！"
 
 #. [message]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:455
 msgid "Damn these monsters! Call in the reinforcements!"
-msgstr ""
+msgstr "畜生、この怪物め！ 援軍を呼べ！"
 
 #. [message]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:483
@@ -236,11 +280,12 @@ msgid ""
 "Stinking humans everywhere! And then those nasty slimes! Burn them, bite "
 "them, slice them!"
 msgstr ""
+"そこら中に臭い人間！ その上汚いスライム！ 燃やせ、噛みつけ、ぶった切れ！"
 
 #. [message]
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:501
 msgid "We're getting nowhere like this! Send in the veterans!"
-msgstr ""
+msgstr "こんなのはどうすればいいんだ！ 古参兵を送ってくれ！"
 
 #. [message]: id=Militia Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:533
@@ -248,16 +293,18 @@ msgid ""
 "It is as I feared. The mad wizard's experiments have escaped and are running "
 "amok. We'll have to fight our way through them to reach the goblins."
 msgstr ""
+"恐れていた通りだ。狂った魔法使いの実験作が逃げ出して暴れている。ゴブリンに到"
+"達するために、そいつらと戦わなければならないだろう。"
 
 #. [message]: id=Militia Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:555
 msgid "Get this thing OFF me!"
-msgstr ""
+msgstr "こいつを俺から剥がせ！"
 
 #. [message]: id=Militia Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:566
 msgid "Ugh! At...least the...town has been...warned..."
-msgstr ""
+msgstr "あぅ！ せめ……て街に……警告……しなければ……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:608
@@ -265,17 +312,18 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:281
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4404
 msgid "Gurgle!"
-msgstr ""
+msgstr "ガーグ！"
 
 #. [message]: id=Thief Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:629
 msgid "What the hell is that thing?!"
-msgstr ""
+msgstr "こいつは一体何なんだ？！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:647
 msgid "No! It wasn't supposed to end like this! I was supposed to die rich!"
 msgstr ""
+"いやだ！ こんな死に方をするはずじゃない！ 俺は、金持ちになって死ぬはずだ！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:651
@@ -284,16 +332,19 @@ msgid ""
 "The Solids seem to place a high value on this substance. Maybe you will find "
 "a use for it later."
 msgstr ""
+"あなたは木の箱から、微かに輝く、黄ばんだ金属製の30枚のコインを見つけました。"
+"「硬い連中」は、この物質に高い価値を認める様に思えます。恐らく、あなたは後で"
+"それの使い途を見つけるでしょう。"
 
 #. [message]: id=Goblin Chieftan
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:683
 msgid "Minions, protect me!"
-msgstr ""
+msgstr "子分ども、俺を守れ！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:701
 msgid "Argh! Lousy minions...never around when you need them..."
-msgstr ""
+msgstr "グァッ！ 使えない子分どもめ……必要な時には回りにいない……"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:705
@@ -302,6 +353,9 @@ msgid ""
 "to place a high value on this substance. Maybe you will find a use for it "
 "later."
 msgstr ""
+"あなたは微かに輝く、黄ばんだ金属製の30枚のコインを見つけました。「硬い連中」"
+"は、この物質に高い価値を認める様に思えます。恐らく、あなたは後でそれの使い途"
+"を見つけるでしょう。"
 
 #. [message]: id=Militia Leader
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:739
@@ -309,16 +363,18 @@ msgid ""
 "Good job men! Now we just need to clear out the rest of these caverns to "
 "make our village safe!"
 msgstr ""
+"みんな、良くやった！ 今や我々は村を安全にするために、洞窟の残りの奴等を掃除す"
+"る必要があるだけだ！"
 
 #. [message]: id=Bloated Bat
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:761
 msgid "Kree! Kree!"
-msgstr ""
+msgstr "キィーッ！ キィーッ！"
 
 #. [message]: id=Bloated Bat
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:779
 msgid "Kreeeeeeee!!!"
-msgstr ""
+msgstr "キイィーーーーーーーッ！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:783
@@ -327,21 +383,24 @@ msgid ""
 "guano. The Solids seem to place a high value on this substance. Maybe you "
 "will find a use for it later."
 msgstr ""
+"あなたはコウモリの糞の山の中から、微かに輝く、黄ばんだ金属製の30枚のコインを"
+"見つけました。「硬い連中」は、この物質に高い価値を認める様に思えます。恐ら"
+"く、あなたは後でそれの使い途を見つけるでしょう。"
 
 #. [message]: id=Spider Queen
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:820
 msgid "Hissss!"
-msgstr ""
+msgstr "ヒイィィィイ！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:824
 msgid "This looks like it's going to be a tough fight!"
-msgstr ""
+msgstr "これは厳しい戦いになりそうです！"
 
 #. [message]: id=Spider Queen
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:843
 msgid "Hissss! (the massive spider charges you, fangs dripping with venom)"
-msgstr ""
+msgstr "ビスッ！ （どっしりした蜘蛛があなたに迫る。牙からは毒が滴っている）"
 
 #. [message]: speaker=second_unit
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:847
@@ -349,6 +408,8 @@ msgid ""
 "Splorch! Glargle! You glom onto the spider's mandibles and then dissolve its "
 "thorax! The creature dies in a fit of agony."
 msgstr ""
+"ズバッ！ グシャッ！ あなたは蜘蛛の顎をつかみ、胸部を溶かした！ 生き物は、もが"
+"き苦しんで死んだ。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:851
@@ -357,6 +418,9 @@ msgid ""
 "Solids seem to place a high value on this substance. Maybe you will find a "
 "use for it later."
 msgstr ""
+"あなたは繭の中から、微かに輝く、黄ばんだ金属製の40枚のコインを見つけました。"
+"「硬い連中」は、この物質に高い価値を認める様に思えます。恐らく、あなたは後で"
+"それの使い途を見つけるでしょう。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/1_Lab.cfg:878
@@ -364,44 +428,48 @@ msgid ""
 "Oh no, you've taken too long! The humans have brought in even more "
 "reinforcements, and now you have no chance to escape!"
 msgstr ""
+"何たることか、あなたは時間を掛けすぎた！ 人間どもはさらに多くの援軍を呼び寄せ"
+"た。あなたが脱出するチャンスは全く無い！"
 
+# ####################
 #. [label]
 #. [scenario]: id=2_Forest_Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:3
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:15
 msgid "Heart of the Forest"
-msgstr ""
+msgstr "森の中心"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:19
 msgid "Cave Entrance"
-msgstr ""
+msgstr "洞窟の入り口"
 
 #. [side]: type=Spearman, id=Militia Veteran
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:60
 msgid "Militia Veteran"
-msgstr ""
+msgstr "古参兵"
 
 #. [unit]: type=Peasant, id=Militia Member
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:76
 msgid "Militia Member"
-msgstr ""
+msgstr "民兵"
 
 #. [unit]: type=Woodsman, id=Militia Deserter
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:85
 msgid "Militia Deserter"
-msgstr ""
+msgstr "脱走兵"
 
 #. [side]: type=Elvish Sylph, id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:116
 msgid "Forest Defender"
-msgstr ""
+msgstr "森の守護者 Aurelia"
 
 #. [unit]: type=Ancient Wose, id=Forest Heart
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:156
 msgid "Forest Heart"
-msgstr ""
+msgstr "森の中心"
 
+# 勝利条件
 #. [objective]: condition=win
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:174
 msgid ""
@@ -409,6 +477,9 @@ msgid ""
 "has tremendous power and it will be difficult if not impossible to slay her "
 "outright. Discover her one weakness to defeat her."
 msgstr ""
+"森の守護者は、この森の精霊から彼女の力を得ている。彼女にはとてつもない力があ"
+"り、彼女を完全に殺す事は、不可能ではないにしても難しくなるだろう。彼女を倒す"
+"ために、彼女の弱点を発見せよ。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:193
@@ -416,6 +487,8 @@ msgid ""
 "You finally escape from the cavern you had always called home to the place "
 "you know only as 'Outside'."
 msgstr ""
+"ついにあなたは、あなたがいつも「家」と呼んでいた洞窟から、単に「外」とだけ認"
+"識していた場所へと脱出しました。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:197
@@ -426,6 +499,10 @@ msgid ""
 "like the mushrooms and molds you were accustomed to. Some dim part of your "
 "memory tells you that you are in what is called a 'forest'."
 msgstr ""
+"あぅ！ ここはとてもまぶしい！ 光の源は、空中高くに吊るされた、巨大な火の玉の"
+"ようです。この洞窟には天井が無く、あなたが慣れ親しんだ、きのこやカビなどは無"
+"く、あたりは奇妙な植物に囲まれています。あなたの記憶のおぼろげな部分が、あな"
+"たは「森」と呼ばれるところの中に居るのだと伝えています。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:201
@@ -433,6 +510,8 @@ msgid ""
 "Perhaps it was a mistake to leave your nice, dark, damp home for this "
 "'forest'..."
 msgstr ""
+"恐らく、あなたの素敵な、暗くて湿っている家を離れ、この「森」に出てきたのは間"
+"違いでした……"
 
 #. [message]: id=Militia Member
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:205
@@ -440,6 +519,8 @@ msgid ""
 "Those damn monsters killed Sergeant Simms! We need to regroup back at the "
 "town!"
 msgstr ""
+"クソッたれな怪物が Simms 軍曹を殺しやがった！ 街に戻って再編成する必要があ"
+"る！"
 
 #. [message]: id=Militia Veteran
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:209
@@ -447,6 +528,8 @@ msgid ""
 "Don't even think about it mister! We must stand our ground and defeat these "
 "beasts now, before they can multiply any more!"
 msgstr ""
+"余計な事は考えるな、貴様！ 我々はここに踏みとどまって、やつらがこれ以上増えた"
+"りする前に、直ちに倒さなければならん！"
 
 #. [message]: id=Militia Deserter
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:213
@@ -454,28 +537,30 @@ msgid ""
 "Are you kidding?! Those creatures just ate their way through half our "
 "militia! We need to go get help from the Imperial Army."
 msgstr ""
+"冗談だろ？！ あの化け物どもは、俺たち民兵の半分を食っちまって来たんだぞ！ 帝"
+"国軍に助けを求めに行く必要がある。"
 
 #. [message]: id=Militia Veteran
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:217
 msgid ""
 "There's no time! Here come the monsters! They're flooding out of the cave "
 "entrance!"
-msgstr ""
+msgstr "そんな暇は無い！ 怪物どもがここに来る！ 洞窟の入り口から溢れ出てくる！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:221
 msgid "Gurgle! (Food!)"
-msgstr ""
+msgstr "ガーグ！（食べ物！）"
 
 #. [message]: id=Militia Deserter
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:225
 msgid "Eeek! Run away!"
-msgstr ""
+msgstr "ヒィイ！ 逃げろ！"
 
 #. [message]: id=Militia Veteran
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:229
 msgid "Cowards! I'll have you all court-martialled when this is over!"
-msgstr ""
+msgstr "臆病者め！ これが終わったら、貴様等全員、軍法会議にかけてやる！"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:243
@@ -483,6 +568,8 @@ msgid ""
 "Those foolish humans! First they dare to trespass in my woods, and now "
 "they've stirred up the monsters in the Dark Cavern!"
 msgstr ""
+"愚かな人間達！ まず初めに生意気にも私の森へ侵入し、そして今、暗い洞窟の怪物を"
+"目覚めさせた！"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:247
@@ -490,6 +577,8 @@ msgid ""
 "Nature's balance must be respected. By the power of my faith, I, Aurelia, "
 "Defender of Shinseki Forest, will cleanse this land of all defilers!"
 msgstr ""
+"自然の調和を尊重しなければならない。誓約の力で、私、Shinseki の森の守護者 "
+"Aurelia は、この土地を汚す全ての者を取り除く！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:258
@@ -498,6 +587,9 @@ msgid ""
 "terrible brightness is not nearly so bad. You wonder what other surprises "
 "await you in this strange land..."
 msgstr ""
+"どうにか空の巨大な火の玉は位置を変え、今や恐ろしいまぶしさも、それほど悪くは"
+"ありません。あなたは、この見知らぬ土地で、他にどんな驚きがあなたを待っている"
+"のだろうかと思います……"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:266
@@ -505,11 +597,13 @@ msgid ""
 "Rally to me, creatures of the forest! We shall purge this monstrous taint "
 "from our home!"
 msgstr ""
+"森の生き物たちよ、私のところへ集合して！ この奇怪な汚物を私たちの家から追放し"
+"ましょう！"
 
 #. [message]: speaker=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:285
 msgid "At last, the monstrous taint has been purged..."
-msgstr ""
+msgstr "ようやく、奇怪な汚物は追放された……"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:302
@@ -517,17 +611,19 @@ msgid ""
 "I have joined my soul with the heart of the forest! As long as this forest "
 "exists, so shall I!"
 msgstr ""
+"私の精神は森の中心に加わりました！ この森が存在する限り、私もそうあるでしょ"
+"う！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:316
 msgid ""
 "You've glommed on to the sylph and begun eating her. She tastes delicious!"
-msgstr ""
+msgstr "あなたはシルフを引っ掴むと、彼女を食べ始めました。彼女はおいしいです！"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:331
 msgid "Goddess, protect your Chosen One!"
-msgstr ""
+msgstr "女神よ、あなたの選ばれし者を護りたまえ！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:361
@@ -536,11 +632,14 @@ msgid ""
 "realize it is pointless to keep attacking her. Instead you must find the "
 "source of her power."
 msgstr ""
+"これは何と？！ シルフはあなたが彼女を溶かすよりも速く再生します！ あなたは彼"
+"女を攻撃し続けるのは無意味だと理解します。その代わりに、あなたは彼女の力の源"
+"を発見しなければなりません。"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:373
 msgid "Taste Nature's fury!"
-msgstr ""
+msgstr "自然の怒りを味わえ！"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:387
@@ -548,6 +647,8 @@ msgid ""
 "NO! Foul creature, you have no idea what you're trifling with! The Heart of "
 "Shinseki Forest must remain pure!"
 msgstr ""
+"駄目！ 汚らわしい怪物よ、あなたは自分が何を弄んでいるのか分かっていない！ "
+"Shinseki の森の中心は、純粋さを保たなければならない！"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:396
@@ -555,11 +656,14 @@ msgid ""
 "Foul human! See what you have done! This monster will devour us all! We need "
 "to stop fighting each other, at least until this creature is destroyed!"
 msgstr ""
+"汚らわしい人間よ！ あなたがしたことを見なさい！ この怪物は、私たちを皆飲み込"
+"むでしょう！ 私たちは、少なくともこの化け物を倒すまでの間、互いに戦うのを止め"
+"る必要があります！"
 
 #. [message]
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:400
 msgid "Yes, I agree. So let's do what has to be done!"
-msgstr ""
+msgstr "同意する。それでは、やり遂げなければならないことをするとしよう！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:420
@@ -568,16 +672,19 @@ msgid ""
 "this you experience a strange sensation. It is almost as if your "
 "consciousness is brushing up against the mind of another."
 msgstr ""
+"あなたは巨大な木を溶かし始め、より多くの「泥」に変えていきます。あなたがそう"
+"すると、奇妙な感覚を経験します。まるであなたの意識が別のものの心と、不意に出"
+"くわしているかのようです。"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:424
 msgid "Ugh! Get out of my head, monster! This forest belongs to me!"
-msgstr ""
+msgstr "ウッ！ 私の頭から出ていきなさい、怪物！ この森は私のものよ！"
 
 #. [message]: id=Forest Defender
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:439
 msgid "NOOOOOOO!!!!!!!"
-msgstr ""
+msgstr "イヤーーーーーーッ！！！！！！！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:443
@@ -585,6 +692,8 @@ msgid ""
 "The sylph has collapsed in a senseless heap. She had bound her spirit into "
 "the Forest Heart, but when you consumed it, you consumed her spirit as well."
 msgstr ""
+"シルフは意識を失い崩れ落ちました。彼女は精神を森の中心へ結びつけてていました"
+"が、あなたがそれを飲み尽くした時、あなたは彼女の精神をも飲み尽くしました。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:452
@@ -593,6 +702,9 @@ msgid ""
 "through your consciousness. You realize that they belong to the sylph. It is "
 "as if a whole new world has opened up before you; the world of the Solids."
 msgstr ""
+"感情、感覚、そして全く異質な記憶が、あなたの意識に溢れだします。あなたは彼ら"
+"がシルフ族であることを理解します。それはまるで新しい世界があなたの目の前に開"
+"けたようです。「硬い者たち」の世界が。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:456
@@ -602,6 +714,10 @@ msgid ""
 "to send your oozes forward to finish off the senseless elf. But you realize "
 "that would be a mistake."
 msgstr ""
+"彼女の力の源が喪われたので、シルフはあなたの前に無力です。彼女の森の仲間たち"
+"は、指導力を欠き、混乱してうろうろと動き回っています。あなたの本能は、意識を"
+"失ったエルフに止めを刺すため、泥たちを進めるべきだと告げています。しかし、あ"
+"なたはそれは間違いだと分かっています。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:460
@@ -611,6 +727,10 @@ msgid ""
 "you realize that the nearby human town will never stop hunting you. To the "
 "Solids you are nothing more than an amorphous menace."
 msgstr ""
+"あなたの進路を横切ったものは何でも無思慮に貪り喰らい、本能のままに振る舞った"
+"日々は終わりました。新たに発見した記憶を調べて、あなたは近くの人間の町が、あ"
+"なたを追跡するのを止めることは決して無いことを理解しました。「硬い者たち」に"
+"とって、あなたは無定形の脅威に過ぎません。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:464
@@ -620,6 +740,10 @@ msgid ""
 "unconscious sylph and, rather than eating her, you start forcing your slimy "
 "body into her mouth..."
 msgstr ""
+"あなたは強力な「硬い者たち」の憤怒から、自分自身を救うただ一つの方法は、一体"
+"化することだと悟ります。あなたは意識の無いシルフのところまでずるずると滑って"
+"行き、彼女を食べるのではなく、むしろ彼女の口に、自分のヌルヌルする体を無理や"
+"り押し込み始めます……"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/2_Forest_Defender.cfg:480
@@ -629,174 +753,212 @@ msgid ""
 "scatter your forces! Lightning arcs from the sky, slamming into you, and all "
 "goes dark..."
 msgstr ""
+"しまった！ あなたは時間を掛けすぎた！ 森の守護者は、森全体をあなたに対抗させ"
+"ることに成功した！ 木々は根を抜きあなたを攻撃している！ 豪雨があなたの軍勢を"
+"追い散らしている！ 空から弧を描いて稲妻があなたに当たり、全てが暗くなってい"
+"く……"
 
+# ###########
 #. [scenario]: id=3_Pinewood
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3
 msgid "Pinewood"
-msgstr ""
+msgstr "Pinewood"
 
+# ##############
+# msgid "Pinewood"
+# msgstr "松の木村"
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:17
 msgid "Wyatt Manor"
-msgstr ""
+msgstr "Wyatt の館"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:21
 msgid "Training Hall"
-msgstr ""
+msgstr "訓練所"
 
 #. [side]: type=Mayor, id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:79
 msgid "Mayor Wyatt"
-msgstr ""
+msgstr "Wyatt 町長"
 
 #. [unit]: type=Spearman, id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:46
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:93
 msgid "Stern Guard"
-msgstr ""
+msgstr "厳格な警備兵"
 
 #. [unit]: type=Bowman, id=Bored Guard
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:58
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:105
 msgid "Bored Guard"
-msgstr ""
+msgstr "退屈している警備兵"
 
 #. [unit]: type=Heavy Infantryman, id=Big Bodyguard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:117
 msgid "Big Bodyguard"
-msgstr ""
+msgstr "大きな警備兵"
 
 #. [unit]: type=Heavy Infantryman, id=Mean Bodyguard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:129
 msgid "Mean Bodyguard"
-msgstr ""
+msgstr "意地悪な警備兵"
 
 #. [unit]: type=Heavy Infantryman, id=Ugly Bodyguard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:141
 msgid "Ugly Bodyguard"
-msgstr ""
+msgstr "たちの悪い警備兵"
 
 #. [unit]: type=Heavy Infantryman, id=Lazy Bodyguard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:154
 msgid "Lazy Bodyguard"
-msgstr ""
+msgstr "怠け者の警備兵"
 
 #. [unit]: type=Dwarvish Thunderer, id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:70
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:168
 msgid "Ram Aide"
-msgstr ""
+msgstr "Ram Aide"
 
+# #: 3_Pinewood.cfg:159
+# msgid "Ram Aide"
+# msgstr "飲んだくれ"
 #. [unit]: type=Rogue, id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:845
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:180
 msgid "Shady Character"
-msgstr ""
+msgstr "いかがわしい人物"
 
 #. [unit]: type=Fencer, id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:531
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:189
 msgid "Fontaine"
-msgstr ""
+msgstr "Fontaine"
 
+# #: 3_Pinewood.cfg:179
+# msgid "Fontaine"
+# msgstr ""
 #. [unit]: type=White Mage, id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:82
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:202
 msgid "High Priest Jal"
-msgstr ""
+msgstr "高僧 Jal"
 
 #. [unit]: type=Peasant, id=Jedd
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:94
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:214
 msgid "Jedd"
-msgstr ""
+msgstr "Jedd"
 
 #. [unit]: type=Woodsman, id=Guthry
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:648
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:688
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:226
 msgid "Guthry"
-msgstr ""
+msgstr "Guthry"
 
+# #: 3_Pinewood.cfg:215
+# msgid "Guthry"
+# msgstr ""
 #. [unit]: type=Footpad, id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:736
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:238
 msgid "Haffuz the Slaver"
-msgstr ""
+msgstr "奴隷商人 Haffuz"
 
 #. [unit]: type=Thug, id=Gorl the Smasher
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:748
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:250
 msgid "Gorl the Smasher"
-msgstr ""
+msgstr "粉砕者 Gorl"
 
 #. [unit]: type=Dark Sorceress, id=Corinna
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:106
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:262
 msgid "Corinna"
-msgstr ""
+msgstr "Corinna"
 
+# #: 3_Pinewood.cfg:251
+# msgid "Corinna"
+# msgstr ""
 #. [unit]: type=Paladin, id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:497
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:275
 msgid "Sir Dryden"
-msgstr ""
+msgstr "Dryden 卿"
 
 #. [unit]: type=Sergeant, id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:119
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:288
 msgid "Sergeant Ryn"
-msgstr ""
+msgstr "Ryn 軍曹"
 
 #. [unit]: type=Mage, id=Livius
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:622
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:300
 msgid "Livius"
-msgstr ""
+msgstr "Livius"
 
 #. [unit]: type=Elvish Hero, id=Sithras
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:597
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:313
 msgid "Sithras"
-msgstr ""
+msgstr "Sithras"
 
 #. [unit]: type=Dwarvish Fighter, id=Frist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:131
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:325
 msgid "Frist"
-msgstr ""
+msgstr "Frist"
 
 #. [unit]: type=Longbowman, id=Valin
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:143
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:337
 msgid "Valin"
-msgstr ""
+msgstr "Valin"
 
 #. [unit]: type=Dwarvish Guardsman, id=Brock
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:155
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:350
 msgid "Brock"
-msgstr ""
+msgstr "Brock"
 
+# #: 3_Pinewood.cfg:288
+# msgid "Livius"
+# msgstr ""
+# #: 3_Pinewood.cfg:300
+# msgid "Sithras"
+# msgstr ""
+# #: 3_Pinewood.cfg:312
+# msgid "Frist"
+# msgstr ""
+# #: 3_Pinewood.cfg:324
+# msgid "Valin"
+# msgstr ""
+# #: 3_Pinewood.cfg:336
+# msgid "Brock"
+# msgstr ""
 #. [unit]: type=Elvish Ranger, id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:167
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:363
 msgid "Kirielle the Realist"
-msgstr ""
+msgstr "現実主義者 Kirielle"
 
 #. [unit]: type=Elvish Marksman, id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:180
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:377
 msgid "Bryony the Idealist"
-msgstr ""
+msgstr "理想主義者 Bryony"
 
+# 勝利条件
 #. [objective]: condition=win
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:474
 msgid ""
 "Infiltrate Fort Pinewood in your new 'Solid' form. Cultivate allies and try "
 "to earn gold. Earn experience at the Training Hall."
 msgstr ""
+"新しい「硬い」姿で Pinewood 砦に潜入する。同盟者と交際し、金を稼ぐ。訓練所で"
+"経験を積む。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:518
@@ -807,6 +969,10 @@ msgid ""
 "are now at your command, although she lost much of her power with the "
 "destruction of the Forest Heart."
 msgstr ""
+"ここ数日のうちに、あなたは自分自身のヌルヌルする滴を全て掻き集め、一つの小さ"
+"な「泥」へと、しっかりと小さく固めて、「硬い」エルフの内臓へ住みつきました。"
+"あなたがエルフの精神を貪り食ったので、彼女の能力は今やあなたの意のままです。"
+"とはいえ、彼女は彼女の力の多くを、森の中心の破壊と共に失いました。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:522
@@ -815,6 +981,9 @@ msgid ""
 "of taste, touch, hearing and sight are completely different. The elf's "
 "memories have given you new insight into the world."
 msgstr ""
+"あなたの新しい「硬い」体に慣れるのには、いくらか時間がかかりました。あなたの"
+"味覚、触覚、聴覚や視覚は全く違っています。エルフの記憶は、あなたに世界に関す"
+"る新しい洞察を与えました。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:526
@@ -823,6 +992,9 @@ msgid ""
 "and you're not able to squeeze yourself through small cracks or crevices. "
 "You grow tired more easily, and cannot simply dissolve your food in moments."
 msgstr ""
+"もっとも、「硬くあること」には欠点もあります。怪我を負えば傷付き易く、体を"
+"絞って小さなヒビや割れ目を抜けることは出来ません。簡単に疲れてしまうし、瞬間"
+"的に食べ物を溶かすことなど全然出来ません。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:530
@@ -831,17 +1003,20 @@ msgid ""
 "focus on developing your physical strength or work on building up your "
 "endurance?"
 msgstr ""
+"あなたはどこにあなたの新しい才能の焦点を合わせるべきか、決定する必要がありま"
+"す。あなたの腕力を伸ばすことに焦点を合わせるべきでしょうか？ それとも、持久力"
+"を鍛えますか？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:532
 msgid ""
 "I will focus on strength. I want to be able to overpower the opposition."
-msgstr ""
+msgstr "腕力に焦点を合わせます。私は、相手を圧倒出来るようになりたいです。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:541
 msgid "I will focus on endurance. I want to be able to outlast my opponents."
-msgstr ""
+msgstr "持久力に焦点を合わせます。私は、相手より長持ちするようになりたいです。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:552
@@ -849,18 +1024,21 @@ msgid ""
 "Elves are well known for their natural grace of movement. Should you focus "
 "on manual dexterity or fleetness of foot?"
 msgstr ""
+"エルフ族は、運動に関する自然の恩恵で良く知られています。あなたは手先の器用さ"
+"か、足の速さのどちらに焦点を合わせるべきですか？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:554
 msgid ""
 "I will focus on manual dexterity. It will help bolster my ranged attacks."
 msgstr ""
+"手先の器用さに焦点を合わせます。それは、私の遠距離攻撃を助けるでしょう。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:563
 msgid ""
 "I will focus on fleetness of foot. I want to be able to outrun my enemies."
-msgstr ""
+msgstr "足の速さに焦点を合わせます。私は、敵より速く走れるようになりたいです。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:574
@@ -869,11 +1047,15 @@ msgid ""
 "the region. You're going to have to decide whether to assimilate peacefully "
 "into the Solids' civilization, or attempt to destroy it from within..."
 msgstr ""
+"あなたはこのあたりの主要な「硬い者たち」の居留地である、Pinewood 砦の門へとた"
+"どり着きました。あなたは平和のうちに「硬い者たち」の文明社会に同化するか、そ"
+"れとも内部からそれを破壊しようと試みるか、決定しなければならなくなるでしょ"
+"う……"
 
 #. [message]: speaker=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:739
 msgid "Halt! Who the hell are you?"
-msgstr ""
+msgstr "止まれ！ お前は一体何者だ？"
 
 #. [message]: speaker=Bored Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:743
@@ -882,6 +1064,9 @@ msgid ""
 "hard time? Let the elf lady pass! We're only standin' guard ta keep out th' "
 "oozes!"
 msgstr ""
+"おいおい、頼むぜ Carmen！ お前はここを通る全員に辛く当たるつもりなのかよ？ エ"
+"ルフのご婦人を通してやれよ！ 俺たちゃ「泥」を入れないように、お決まりの警備を"
+"してるだけだぜ！"
 
 #. [message]: speaker=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:747
@@ -890,11 +1075,14 @@ msgid ""
 "the ooze crisis is resolved. Besides, we don't need her kind of riff-raff in "
 "Pinewood. So sod off, little elf lass, there's nothin' for you here!"
 msgstr ""
+"そうとも！ 町長は「泥」の危機が解決されるまで、砦は完全に閉鎖すると言ってる。"
+"その上、Pinewood には、この女みたいなろくでなしは必要ない。そう、消え失せろ、"
+"ちびのエルフ女、ここにはお前のためになるものは、何もない！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:751
 msgid "(How should you get past the gate guards?)"
-msgstr ""
+msgstr "（あなたはどのように門番を通り抜けるべきですか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:753
@@ -902,11 +1090,13 @@ msgid ""
 "(Beg) Please, please, please let me in! You can't leave me out here! The "
 "oozes will eat me!"
 msgstr ""
+"（懇願する）お願いします、どうか、どうか私を入れてください。誰もここを\n"
+"離れることなんて出来ません！ 「泥」は私を食べてしまうでしょう！"
 
 #. [message]: id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:757
 msgid "Hmph! Pathetic!"
-msgstr ""
+msgstr "ふぅむ！ 哀れな！"
 
 #. [message]: id=Bored Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:761
@@ -915,11 +1105,14 @@ msgid ""
 "he ushers you through the gate) There, there, little lady, you'll be safe in "
 "this here fort. And here's a few coins so you can stay at th' inn."
 msgstr ""
+"あー、Carmen、お前はそれほど冷酷でなければならんのか？ （あなたを案内して門を"
+"通る時、彼はあなたの肩を軽く叩きます）あっちあっち、小さいお嬢さん、あんたは"
+"ここの砦の中なら安全だよ。そしてこれはあんたが宿屋に泊まれるだけの小銭だよ。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:765
 msgid "You gained five gold pieces!"
-msgstr ""
+msgstr "あなたは5枚の金貨を得た！"
 
 #. [message]: id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:777
@@ -930,6 +1123,10 @@ msgid ""
 "other mercenaries in the Mayor's service aren't nearly as forgiving as my "
 "idiot companion here!"
 msgstr ""
+"一体何としたことか？！ ちょっと涙目の少女にかかれば、誰だって最高に感傷的にな"
+"る！ お前は警備兵のための哀れな言い訳だ！ そして、お前のためにエルフの魔女"
+"よ、行儀良くしていろ。さもなければ街の牢屋で終わるぞ！ 町長が使ってる他の傭兵"
+"どもは、ここにいる俺の馬鹿な仲間ほどに寛大ではないぞ！"
 
 #. [option]: id=Master Ooze
 #. [message]: id=Master Ooze
@@ -937,18 +1134,21 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:836
 msgid "(Bribe) I'll pay you thirty pieces of gold if you let me in!"
 msgstr ""
+"（買収する）もしあなたが私を入れてくれるなら、金貨30枚を払うつもりです！"
 
 #. [message]: id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:786
 msgid ""
 "That works for me! Have a nice day, ma'am! And welcome to Fort Pinewood!"
 msgstr ""
+"それは俺には効き目がある！ 良い一日を、ご婦人。そして、Pinewood 砦へようこ"
+"そ！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:790
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:844
 msgid "You lost thirty gold pieces!"
-msgstr ""
+msgstr "あなたは金貨30枚を失った！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:803
@@ -956,11 +1156,14 @@ msgid ""
 "(Offer to help) The oozes threaten everyone. I'm a healer and I came to "
 "offer my services in these dark times."
 msgstr ""
+"（助けを申し出る）「泥」は皆を脅かしています。私は癒し手で、この暗い時代"
+"に、\n"
+"手助けを申し出るために来ました。"
 
 #. [message]: id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:807
 msgid "Hmmm...I suppose we need all the help we can get..."
-msgstr ""
+msgstr "フ〜ム……我々は手に入れられる全ての助けを必要としているとは思うが……"
 
 #. [message]: id=Bored Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:811
@@ -968,11 +1171,13 @@ msgid ""
 "Head to th' Mayor's manor just up the street. He's lookin' ta hire healers "
 "like yourself."
 msgstr ""
+"この通りをまっすぐに町長の館に向え。彼はお前のような、日雇いの癒し手を探して"
+"いる。"
 
 #. [message]: id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:815
 msgid "Welcome to Fort Pinewood."
-msgstr ""
+msgstr "ようこそ Pinewood 砦へ。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:820
@@ -980,11 +1185,13 @@ msgid ""
 "(Seduce) Surely strong, handsome men like yourselves could do a woman like "
 "me a little favor? I could make it worth your while!"
 msgstr ""
+"（誘惑する）きっと、あなたみたいな強くてハンサムな男は、私みたいな女に、\n"
+"ちょっぴり好意を示せるでしょう？ 私はそれに値打ちを与えられると思うんだけど！"
 
 #. [message]: id=Bored Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:824
 msgid "(Gulp!) Well I guess we could--"
-msgstr ""
+msgstr "（ごくり！）まぁ、俺はそう出来ると思うんだが──"
 
 #. [message]: id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:828
@@ -995,12 +1202,18 @@ msgid ""
 "world would be a better place! I'll say it one last time -- sod off missy! "
 "There's nothing for you in Fort Pinewood!"
 msgstr ""
+"何が出来るだと？ お前も実際にそんな非人間の奇形を一緒に通すことが出来るとは"
+"思っていまいな？ エルフどもは怪物の一歩上であるに過ぎない！ 帝国軍が惑星上か"
+"ら奴ら退廃的な種族を一掃出来れば、世界はより良い場所になるだろうに！最後に一"
+"言だけ言う。消え失せろ、お嬢さん！ Pinewood 砦にお前のためのものはない！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:832
 msgid ""
 "(He's really angry; it looks like bribery is the only option you have left)"
 msgstr ""
+"（彼は本当に怒っています。買収があなたに唯一残された方法であるように思えま"
+"す）"
 
 #. [message]: id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:840
@@ -1008,16 +1221,18 @@ msgid ""
 "You've finally got my attention, lass! I'll take those coins and...Welcome "
 "to Fort Pinewood! May the rest of your day be as nice, ha ha!"
 msgstr ""
+"ようやく俺の注意を惹けたな、お嬢さん！ このコインは貰っておこう……ようこそ、"
+"Pinewood 砦へ！ お前に残された日が良くなるように、ハハ！"
 
 #. [message]: id=Bored Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:856
 msgid "Yer really evil, ya know that?"
-msgstr ""
+msgstr "お前は本物のワルだな、知ってるか？"
 
 #. [message]: id=Stern Guard
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:860
 msgid "(Shrugs) I try."
-msgstr ""
+msgstr "（肩をすくめて）試したんだ。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:871
@@ -1025,12 +1240,14 @@ msgid ""
 "Whenever you see an icon that looks like this, you should move the Master "
 "Ooze onto the hex that contains it to trigger an event."
 msgstr ""
+"このようなアイコンを見た時はいつでも、あなたは「泥の支配者」をイベントの引き"
+"金となるヘックスへ移動させるべきです。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:887
 msgid ""
 "Welcome to Fort Pinewood. North to Tarakin City. South to Shinseki Forest."
-msgstr ""
+msgstr "ようこそ Pinewood 砦へ。Tarakin 市は北。Sinseki の森は南。"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:905
@@ -1039,17 +1256,20 @@ msgid ""
 "temperament. Based on his clothes and bearing, you guess that he must have "
 "been a farmer before taking up the aegis of politics)"
 msgstr ""
+"（町長は、熱狂的で激しい気質を持った、禿げかけた中年男に見えます。彼の衣服と"
+"態度に基づき、政治の盾を取る前は、彼は農夫であったに違いないとあなたは思いま"
+"す）"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:909
 msgid ""
 "Greetings citizen! Have you come to aid our fair town in our hour of need?"
-msgstr ""
+msgstr "ご機嫌よう！ まさかの時、あなたは我々の公正な街を支援しますか？"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:913
 msgid "(How should you respond?)"
-msgstr ""
+msgstr "（あなたはどう答えるべきか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:915
@@ -1057,6 +1277,8 @@ msgid ""
 "(Offer to help fight Evil) Yes, my name is Aurelia. I'm an elvish shaman and "
 "I'm here to help!"
 msgstr ""
+"（悪と戦うと申し出る）はい、私は Aurelia と申します。私はエルフの巫女で、\n"
+"助けるためにここにいます！"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:919
@@ -1064,6 +1286,8 @@ msgid ""
 "(He rubs his hands together with glee) Wonderful! Splendid! Let me explain "
 "the situation..."
 msgstr ""
+"（大喜びして揉み手しながら）素晴らしい！ 大したものだ！ 事情を説明させてくだ"
+"さい……"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:924
@@ -1071,6 +1295,8 @@ msgid ""
 "(Offer to help for a reward) I'm a mercenary. I can help, but my services "
 "will cost you."
 msgstr ""
+"（報酬のために助けると申し出る）私は傭兵です。私は助けることが出来ますが、\n"
+"私の助けは、あなたに費用を費やさせるでしょう。"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:928
@@ -1079,11 +1305,14 @@ msgid ""
 "I wouldn't dream of putting you in harm's way without providing proper..."
 "compensation."
 msgstr ""
+"もちろん、当然です！ 私の要求していることに関わると、かなりの危険があります。"
+"適切な……補償を提供せずに、あなたを危険なところに行かせようとは夢にも思いませ"
+"ん。"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:932
 msgid "Let me give you a quick briefing about what's been going on..."
-msgstr ""
+msgstr "何が起きているのか、ざっと説明させてください……"
 
 #. [option]: id=Master Ooze
 #. [message]: id=Master Ooze
@@ -1093,6 +1322,8 @@ msgid ""
 "(Decline to help) I'm just a simple traveler looking for a place to spend "
 "the night."
 msgstr ""
+"（助けることを断る）私はただ夜をすごす場所を探しているだけの、純粋な旅人で"
+"す。"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:941
@@ -1102,6 +1333,9 @@ msgid ""
 "the South Gate. The food is delicious, the rooms are cozy, and the prices "
 "are quite affordable. Please enjoy your stay in Fort Pinewood!"
 msgstr ""
+"それでしたらご婦人、私は南門のそばにある Brock の宿屋を強くお勧めします。食べ"
+"物はうまく、部屋は居心地が良く、そして値段もなかなか手頃です。どうか "
+"Pinewood 砦への滞在を楽しんでください！"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:945
@@ -1111,11 +1345,16 @@ msgid ""
 "possible under the circumstances. (Sigh) Our town has had its share of "
 "troubles recently. Let me explain what's been going on..."
 msgstr ""
+"（彼は突然落胆したようです）……または、少なくともこの情勢の元で出来るだけ滞在"
+"を楽しんでください。（ため息）私たちの街には、最近共有する問題がありました。"
+"起こっていることについて説明させてください……"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:951
 msgid "(Provoke) I'm no hero! I'm the Master Ooze, come to devour you all!"
 msgstr ""
+"（挑発する）私は英雄じゃない！ 私は「泥の支配者」、お前たちを皆貪り食ってや"
+"る！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:955
@@ -1125,6 +1364,9 @@ msgid ""
 "here. You need to become more powerful before you make a move to destroy the "
 "humans...)"
 msgstr ""
+"（考え直して、町長の4人の良く装甲された護衛を見て、あなたはここで戦闘を仕掛け"
+"るのは、最大の利益にはならないかもしれないと判断を下します。あなたは人間を滅"
+"ぼすために動き始める前に、もっと強くなる必要があります……"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:975
@@ -1133,6 +1375,9 @@ msgid ""
 "local goblin tribe. The strike force encountered an incredibly evil, "
 "powerful monster that devoured all in its path!"
 msgstr ""
+"全ては我々の民兵のリーダーが、地方のゴブリンの部族を懲罰するための攻撃を率い"
+"たところから始まりました。攻撃部隊は、その経路上の全てを貪り喰らう、信じられ"
+"ないほど邪悪で強力な怪物と遭遇しました！"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:979
@@ -1142,6 +1387,10 @@ msgid ""
 "the manpower to defend them. The Imperial Army is coming to our aid, but "
 "it'll be weeks before they arrive in force."
 msgstr ""
+"Pinewood の民兵は、壊滅的な敗北を喫し、我々の民兵のリーダーは殺されました。私"
+"は、それを守るだけの人手がもう無いので、全てのへんぴな農場から避難させまし"
+"た。帝国軍が我々を助けにくるはずですが、大挙して到着するまでには、何週間もか"
+"かるでしょう。"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:983
@@ -1152,6 +1401,10 @@ msgid ""
 "defended human town. If word of our militia's defeat spreads we may have "
 "more to worry about than just mindless oozes!"
 msgstr ""
+"差し当たって、私は砦の守りを強化するために、英雄や傭兵を雇用しようとしていま"
+"す。私は、単に「泥」を心配しているわけではありません。守りの貧弱な人間の街を"
+"略奪したがっている、機会主義的なオークの将軍たちは大勢います。我々の民兵が敗"
+"れた話が広まれば、無知な「泥」以上のものを心配しなければならないでしょう！"
 
 #. [message]: id=Mayor Wyatt
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:987
@@ -1161,11 +1414,16 @@ msgid ""
 "townsfolk. They might, at the very least, be able to provide you with "
 "valuable information."
 msgstr ""
+"もし、街の守りを助けることに関心があるなら、訓練所の Frist と話しに行ってくだ"
+"さい。また、あなたは何人かの他の町民とも話したいかもしれません。彼らはとにか"
+"くも貴重な情報を提供出来るかもしれません。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1130
 msgid "Oh, would that I might never see another day such as today, alas, alas!"
 msgstr ""
+"おぉ、今日と同じような別の日に遭遇することが決してなければよいが。あぁ。"
+"あぁ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1134
@@ -1185,12 +1443,12 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4127
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4250
 msgid "(What to say?)"
-msgstr ""
+msgstr "（言うべき事は？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1136
 msgid "(Offer to help) Hello sir. Is something wrong?"
-msgstr ""
+msgstr "（助けを申し出る）今日は。何か問題がありますか？"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1143
@@ -1198,6 +1456,8 @@ msgid ""
 "Oh fair damsel, I don't want to burden you with my problems. (He suddenly "
 "reconsiders) On the other hand, perhaps you're just what I need..."
 msgstr ""
+"立派なお嬢さん、私の問題であなたに負担をかけたいとは思わない。（突然再考し"
+"て）一方、恐らくあなたは私の必要にピッタリだ……"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1147
@@ -1205,6 +1465,8 @@ msgid ""
 "I'll tell you my tale of woe, and then you can decide whether to help me or "
 "not. "
 msgstr ""
+"私はこれから、あなたに苦悩の物語を伝えるつもりだ。そうすれば、助けるかどうか"
+"決められるだろう。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1151
@@ -1213,6 +1475,9 @@ msgid ""
 "when we were ambushed by orcs. Except for myself, there was only one other "
 "survivor, a beautiful and skilled mage by the name of Corinna."
 msgstr ""
+"去年、オークの待ち伏せに遭った時、私は Vedra の凍った草原を貿易の隊商とともに"
+"旅していた。私と、もう一人 Corinna という名の美しく熟練した魔法使いだけが生き"
+"残った。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1155
@@ -1224,6 +1489,12 @@ msgid ""
 "warmth, warding off the relentless cold. And finally, after months of "
 "traveling together, the two of us made it back to civilization."
 msgstr ""
+"Corinna について私に言えることは何か？ 彼女の目は優雅なエメラルド、彼女の顔は"
+"天使そのもの、彼女は女神が受肉したのだ！ Corinna の魔法と、私の聖騎士の能力で"
+"我々は完全な組み合わせになった。我々は、オークやイエティ、その他の酷すぎて口"
+"に出来ない邪悪なものどもを、一緒に打ち破った。夜には容赦の無い寒さを避け、温"
+"もりのため、互いに抱き合った。そして、何ヶ月も一緒に旅した後、我々二人はつい"
+"に文明社会に戻ってきた。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1159
@@ -1231,26 +1502,28 @@ msgid ""
 "We're the perfect team! The gods intended for us to be together, I'm sure of "
 "it!"
 msgstr ""
+"我々は完全な組み合わせだ！ 神が我々が一緒にいるように意図したのだと、私は確信"
+"している！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1163
 msgid "You do sound like a good match. So what's the problem?"
-msgstr ""
+msgstr "あなたがそうしても良さそうに思えます。それで何が問題なのですか？"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1167
 msgid "Corinna is evil and she hates me."
-msgstr ""
+msgstr "Corinna は邪悪で、彼女は私を嫌っている。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1171
 msgid "Ouch."
-msgstr ""
+msgstr "あう。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1175
 msgid "Tell me about it."
-msgstr ""
+msgstr "それに関して話させてくれ。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1179
@@ -1259,6 +1532,9 @@ msgid ""
 "she only stayed with me to survive, that she never loved me! I feel like "
 "I've had my heart ripped out and trampled to a pulp!"
 msgstr ""
+"一旦我々が Pinewood 砦へ戻ると、彼女には私と一緒にしたいことは何もない！ 彼女"
+"は私と一緒にいたのは、ただ生き残るためで、決して私を愛していないと言った！ 私"
+"の心臓を剥ぎ取り、ぐちゃぐちゃに踏みつけられたような感じがする！"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1183
@@ -1268,6 +1544,10 @@ msgid ""
 "an 'Anti-Annoying Paladin Ward' around her estate. Some invisible force "
 "stops me from even passing through the front gate of her manor now!"
 msgstr ""
+"今、彼女は禁制の魔術に関する暗黒の大冊書を研究するために、彼女の屋敷に引きこ"
+"もっている。私が最後に彼女の元を訪れようとした時、彼女は私を攻撃し、彼女が"
+"「迷惑な聖騎士避け」と呼んでいるものを、彼女の地所に設置した。今や、何らかの"
+"目に見えない力が、私が彼女の屋敷の正門を通過するのを阻んでいるのだ！"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1187
@@ -1277,6 +1557,10 @@ msgid ""
 "only I could convince Corinna to abandon her dark magicks. How can one so "
 "beautiful be so ugly inside?"
 msgstr ""
+"私の聖騎士としての教義には、どこであれ邪悪を見つけたなら殺さなければならない"
+"と明確に述べられているが、どうして愛する女性に対して私の剣を上げられようか？"
+"（ため息）私が黒魔術は捨てるように、Corinna を説得出来さえすればいいのだが。"
+"どうして、あれほどの美しさと、内面の醜さが、一つであり得るのだろう？"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1191
@@ -1284,6 +1568,8 @@ msgid ""
 "I guess appearances can be deceiving sometimes... (You wonder what Dryden "
 "would think of you if he saw your true form...)"
 msgstr ""
+"私は外観というのは時々誤魔化すことが出来ると思います……（あなたは Dryden があ"
+"なたの真の姿を見たら、あなたのことをどう考えるだろうかと思います……）"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1195
@@ -1291,11 +1577,13 @@ msgid ""
 "If you're willing to help, please take this love letter I wrote to Corinna "
 "at her estate. It's just west of the bridge."
 msgstr ""
+"もしも助けても構わないと思っているなら、どうか私が Corinna へ書いたこの恋文を"
+"取って、彼女の屋敷に届けてほしい。それは橋のすぐ西にある。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1205
 msgid "(Leave him alone) Sorry to bother you..."
-msgstr ""
+msgstr "（彼を放っておく）邪魔してご免なさい……"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1209
@@ -1303,11 +1591,13 @@ msgid ""
 "(The man is so self-absorbed in his sorrow that he doesn't even notice your "
 "arrival or departure.)"
 msgstr ""
+"（男性は、悲しみのあまり物思いに沈みすぎていて、あなたが来ても離れても、気付"
+"きさえしません）"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1225
 msgid "(This pretty young woman scowls at you as you approach.)"
-msgstr ""
+msgstr "（あなたが近付くと、この可愛い若い女性はあなたを睨みつけます）"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1229
@@ -1315,23 +1605,27 @@ msgid ""
 "Let me guess. That tin-headed oaf of a paladin is still pining for me "
 "outside the gates of my estate, and he sent you to do his dirty work."
 msgstr ""
+"当てさせて。ブリキ頭のとんまな聖騎士は、未だに私の地所の門の外で私に思い焦が"
+"れている。そして、汚い仕事をさせるためにあなたを寄越した。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1235
 msgid "(Be indifferent) That's right. I've got a letter for you."
-msgstr ""
+msgstr "（頓着せず）その通りです。私はあなたへの手紙を持っています。"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1239
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1248
 msgid "Not another one!"
-msgstr ""
+msgstr "別のにしてよ！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1244
 msgid ""
 "(Try to change her mind) But he loves you! He wrote you this love letter!"
 msgstr ""
+"（彼女の気を変えようとして）でも彼はあなたを愛しています！ 彼はあなたに、この"
+"恋文を書きました。"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1255
@@ -1339,41 +1633,47 @@ msgid ""
 "Look, I'll pay you 75 pieces of gold if you can get rid of Sir Dryden for "
 "me. Kill him, trick him, marry him, whatever, just make him go away!"
 msgstr ""
+"ほら、あなたが私のために Dryden 卿を追い払うことが出来るのなら、金貨で75枚払"
+"うわ。殺すとか、騙すとか、結婚するとか、彼をどこかにやれることなら何でも！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1259
 msgid "(How to respond to her offer?)"
-msgstr ""
+msgstr "（彼女の申し出に、どう応じますか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1261
 msgid "(Accept the offer) All right, I'll get rid of Sir Dryden for you."
 msgstr ""
+"（申し出を受け入れます）いいでしょう。私はあなたのために Dryden 卿を追い払い"
+"ましょう。"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1265
 msgid "Thanks. Come back here when the job is done for your reward."
-msgstr ""
+msgstr "ありがとう。仕事が終わったら、報酬を受け取りにここに戻ってきてね。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1270
 msgid "(Reject the offer) No! Sir Dryden was right about you, you're evil!"
-msgstr ""
+msgstr "（申し出を断る）嫌です！ Dryden 卿が正しい。あなたは邪悪です！"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1274
 msgid " (Menacingly) You've worn out your welcome here. Leave. Now."
-msgstr ""
+msgstr "（脅すように）ここでの歓迎はお終い。出て行って。今すぐ。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1292
 msgid "(Eagerly) Were you able to get my letter to Corinna?"
-msgstr ""
+msgstr "（熱心に）あなたは Corinna への私の手紙を渡すことが出来ましたか？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1298
 msgid "(Tell the truth) I'm afraid so. She tried to hire me to get rid of you."
 msgstr ""
+"（真実を伝える）残念ながら。彼女はあなたを追い払うために私を雇おうとしまし"
+"た。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1302
@@ -1384,6 +1684,11 @@ msgid ""
 "will have to slay her. There is one...last chance...one last thing to try..."
 "to save Corinna from herself...if you would be willing to help."
 msgstr ""
+"（厳めしく）それでは、事態は私が恐れていたよりさらに悪い。Corinna の黒魔術の"
+"実験が、当局の知るところになるのは、時間の問題に過ぎない。そうなれば、聖騎士"
+"としての私の義務も明確になるだろう。私は彼女を殺さなければならない。一つ……最"
+"後の機会が……一つだけ Corinna を彼女自身から救うための最後の……あなたが助けても"
+"構わないと思っているなら。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1306
@@ -1394,6 +1699,10 @@ msgid ""
 "Corinna into wearing it perhaps she would develop a more...amenable "
 "personality."
 msgstr ""
+"「反転の指輪」と呼ばれる、呪われた人造物がある。推測によれば、それには最高に"
+"純粋な英雄を邪悪に変え、もしくは最も邪悪な犯罪者でも善人に変える力がある。私"
+"たちがその指輪を手に入れ、Corinna を騙して身につけさせれば、恐らく彼女はもっ"
+"と……従順な人格を発現させるだろう。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1310
@@ -1401,6 +1710,8 @@ msgid ""
 "I'm going to look into acquiring the ring. I'll be right back. (He leaves "
 "for a minute, then returns.)"
 msgstr ""
+"私は指輪を手に入れるつもりだ。すぐ戻る。（彼は少しの間いなくなって、そして"
+"戻ってきます）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1319
@@ -1408,6 +1719,9 @@ msgid ""
 "(Lie) Corinna said that to win her heart you must travel to the faraway land "
 "of Tyrakia and pick a crystal rose for her."
 msgstr ""
+"（嘘をつく）Corinna が言うには、彼女の心を勝ち得るには、あなたは遠く Tyrakia "
+"まで\n"
+"旅して、彼女のために水晶の薔薇を摘んでこなければならないそうです。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1326
@@ -1416,6 +1730,9 @@ msgid ""
 "stories of old! Oh Corinna, I will prove my worth to you in whatever way you "
 "desire! To Tyrakia!"
 msgstr ""
+"探求か！ 美しい少女の心を勝ち獲るための、まるで古い物語のような勇ましい冒"
+"険！ おぉ Corinna、あなたのために、あなたが望むどんな方法ででも、私は自分の価"
+"値を証明しよう！ Tyrakia へ！"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1330
@@ -1423,11 +1740,13 @@ msgid ""
 "And thank you, elf damsel, for helping me woo Corinna! Please take this gold "
 "as a reward!"
 msgstr ""
+"ありがとう、エルフの少女よ。Corinna に対する求婚を助けてくれて！ この金貨を報"
+"酬として受け取ってほしい！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1334
 msgid "You gained twenty gold pieces!"
-msgstr ""
+msgstr "あなたは金貨20枚を得た！"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1369
@@ -1435,16 +1754,18 @@ msgid ""
 "Unfortunately...the merchant is selling the Ring of Opposite Alignment for "
 "50 pieces of gold, and due to my paladin vows of poverty I can't afford it."
 msgstr ""
+"残念ながら……商人は反転の指輪を金貨50枚で売っていて、聖騎士の貧困の誓いのため"
+"に、私には都合出来ない。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1383
 msgid "(Buy the ring) I'll pay for it."
-msgstr ""
+msgstr "（指輪を買う）私が払いましょう。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1390
 msgid "You lost 50 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨50枚を失った！"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1402
@@ -1452,6 +1773,8 @@ msgid ""
 "Milady, you are a saint! (He rushes off to get the ring and returns in a few "
 "minutes.)"
 msgstr ""
+"ご婦人、あなたは聖者です。（彼は指輪を手に入れるために急いで立ち去り、数分で"
+"戻ってきた）"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1406
@@ -1459,16 +1782,18 @@ msgid ""
 "Now you must convince Corinna to put on the ring. I'll leave the details up "
 "to you."
 msgstr ""
+"今やあなたは Corinna に指輪を身につけることを納得させなければなりません。詳細"
+"は任せます。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1410
 msgid "You got the Ring of Opposite Alignment!"
-msgstr ""
+msgstr "あなたは反転の指輪を手に入れた！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1422
 msgid "(Decline to help) Sorry, I can't help you right now."
-msgstr ""
+msgstr "（申し出を辞退する）ご免なさい、今はあなたを助けられません。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1426
@@ -1477,17 +1802,21 @@ msgid ""
 "Of course, milady. I know it was a lot to ask. Thank you for all your help. "
 "I must now contemplate my next course of action."
 msgstr ""
+"もちろんです、ご婦人。私は過大な要求であると知っています。あなたの助けに感謝"
+"します。私は今、今後どうするかについて熟慮しなければなりません。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1436
 msgid "I'm sorry, I don't have that much money either."
-msgstr ""
+msgstr "ご免なさい、私にはそれだけのお金がありません。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1444
 msgid ""
 "(If you still want to help Sir Dyden you can come back later with the money.)"
 msgstr ""
+"（もしまだあなたが Dryden 卿を助けたいなら、後ほどお金を持って戻ることが出来"
+"ます）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1459
@@ -1495,6 +1824,7 @@ msgid ""
 "Your paladin problem has been taken care of. (You relate the details of what "
 "happened.)"
 msgstr ""
+"あなたの聖騎士問題を処理しました。（あなたは何が起こったか詳しく話します）"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1463
@@ -1502,26 +1832,28 @@ msgid ""
 "Ha ha! What a clever way to get rid of that pompous fool! Here's your 75 "
 "gold, plus a little extra for your creativity!"
 msgstr ""
+"アハハ！ あの気取ったお馬鹿さんを追い払う、賢い方法だわね！ ここに金貨が75枚"
+"と、あなたの独創性にちょっとおまけをつけたわ。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1467
 msgid "You gained 90 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨90枚を得た！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1487
 msgid "I've got another gift for you from your admirer."
-msgstr ""
+msgstr "私はあなたの賛美者からあなたへの、別の贈り物を持っています。"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1491
 msgid "How dare you waste my time with this!"
-msgstr ""
+msgstr "よくもこんなもののために私の時間を浪費してくれたわね！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1497
 msgid "(Lie) But you'll like this gift. It's a Ring of Magic Power!"
-msgstr ""
+msgstr "（嘘を付く）でも、あなたはこれが好きなはずです。魔力の指輪ですよ！"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1501
@@ -1529,6 +1861,8 @@ msgid ""
 "Well, maybe Dryden isn't as useless as he appeared. (She takes the ring and "
 "puts it on)."
 msgstr ""
+"まぁ、多分 Dryden も見かけほどの役立たずってわけでもないでしょうし。（彼女は"
+"指輪を取って身につけます）"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1505
@@ -1538,6 +1872,10 @@ msgid ""
 "I'll melt the flesh off his bones! I'll...eh...(She swoons) Actually, my "
 "head hurts. I...I need to rest. Yes, rest, and think some things over."
 msgstr ""
+"（腹を立てて）ちょっと待って！ これは魔力の指輪なんかじゃないわ！ （外そうと"
+"するが出来ずに）呪われたじゃないの！ 聖騎士と共謀するなんて卑怯よ！ 彼の肉を"
+"溶かして骨だけにしてやるから！ 私は……えと……（卒倒し）本気で、頭が痛いわ。私"
+"は……私は休まなくちゃ。そう、休んで、色んな事をよく考えなくちゃ。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1514
@@ -1545,6 +1883,8 @@ msgid ""
 "(Tell the truth) Dryden is giving you a chance to turn your life around with "
 "this Ring of Opposite Alignment."
 msgstr ""
+"（真実を告げる）Dryden はあなたに、この「反転の指輪」で、あなたの人生を転換す"
+"る機会を与えています。"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1518
@@ -1554,11 +1894,15 @@ msgid ""
 "wearing it. Here's some money for your trouble, and give my regards to that "
 "idiot paladin! (She laughs cruelly.)"
 msgstr ""
+"そう、彼は呪いの指輪で私を惑わせようとしてるってわけね、えぇ？ 指輪は受け取り"
+"ましょう。使い途を見つけるかもしれないし。もちろん、身につけるなんて用途は、"
+"含まないでしょうけどね。これはあなたを煩わせたお礼よ。ついでに、あの馬鹿な聖"
+"騎士によろしく伝えてね！ （彼女は残酷に笑います）"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1526
 msgid "You gained 100 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨100枚を得た！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1550
@@ -1567,6 +1911,9 @@ msgid ""
 "assuming it did based on the fact she hasn't melted the flesh off your bones "
 "yet."
 msgstr ""
+"私は彼女に指輪を渡して、彼女はそれを身につけました。私は……うまくいったと思い"
+"ます。少なくとも、まだ彼女が、あなたの肉を溶かして骨だけにしてはいないことに"
+"基づいて推測したところでは。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1554
@@ -1574,11 +1921,14 @@ msgid ""
 "Well, I guess that's good news. I must admit I was hoping for a more "
 "instantaneous transition to Good, but perhaps the ring takes time to work."
 msgstr ""
+"そう、それは朗報なんだろう、と思う。私は、もっと瞬間的に「善」への転換が起こ"
+"ると期待していたことを認めなければならないが、しかし恐らく指輪が働くには時間"
+"がかかるのだろう。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1558
 msgid "Or maybe she's just really, really evil."
-msgstr ""
+msgstr "または、彼女は単に本当の、本物の邪悪であるのかも。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1562
@@ -1587,11 +1937,14 @@ msgid ""
 "me than I ever could have hoped for. If you ever need a paladin by your "
 "side, I will be there."
 msgstr ""
+"そうかもしれない。私は成り行きを見守る必要がある。ご婦人、あなたは私のために"
+"私が今までに期待したかもしれない以上のことをしてくれた。もし、あなたがいつか"
+"あなたの側に聖騎士を必要とするなら、私はそこにいるだろう。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1566
 msgid "Thank you."
-msgstr ""
+msgstr "ありがとう。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1582
@@ -1599,6 +1952,8 @@ msgid ""
 "I gave her the ring but she didn't put it on and I don't think she's going "
 "to."
 msgstr ""
+"私は彼女に指輪を渡しましたが、彼女は身につけませんでした。そして私は彼女が将"
+"来そうするだろうと思いません。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1586
@@ -1607,6 +1962,9 @@ msgid ""
 "unrequited love is consuming me from within! I must...flee Fort Pinewood "
 "before I go mad with grief."
 msgstr ""
+"ノォォッ！ 全ての努力が無に帰した！ 私……私はこんな……こんな風に片思いに心の中"
+"を食い荒らされながら生きてはいられない！ 私は……悲しみのあまり狂ってしまう前"
+"に Pinewood 砦から去らなければならない。"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1613
@@ -1614,6 +1972,8 @@ msgid ""
 "Welcome to th' Training Hall. If yer lookin' ta sharpen yer combat skills "
 "before taking on th' ooze hordes, yer in the right place!"
 msgstr ""
+"訓練所へようこそ！ 「泥」の群れに食われちまう前に戦技を磨いとこうってんなら、"
+"おめぇさんは正しいところへ来たよ！"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1617
@@ -1622,33 +1982,36 @@ msgid ""
 "shouldn't be too difficult ta defeat, but if ye should happen ta get "
 "injured, High Priest Jal on the east side of town can fix ya up in a jiffy!"
 msgstr ""
+"金貨30枚で、おめぇさんの技を磨くための魔法の標的が手に入る。倒すのはそれほど"
+"難しいってこたぁねえが、もし怪我しても、街の東側にいる高僧 Jal が、あっと言う"
+"間に治してくれる！"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1621
 msgid "So what do ye say lass? Ready ta train?"
-msgstr ""
+msgstr "それじゃ、何か言うことはあるかい、お嬢ちゃん？ 訓練の準備はいいかい？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1627
 msgid "(Pay 30 gold) I'm ready to train!"
-msgstr ""
+msgstr "（金貨30枚を払う）私は訓練の準備が出来ています！"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1637
 msgid ""
 "It looks like ye don't have that much. Come back when ye have more gold."
-msgstr ""
+msgstr "おめぇさんは、そんだけ持ってねぇようだ。もっと金のある時に来な。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1650
 msgid "You lost 30 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨30枚を失った！"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1662
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1707
 msgid "Release the quintains!"
-msgstr ""
+msgstr "標的を放せ！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1693
@@ -1656,6 +2019,8 @@ msgid ""
 "(Beg) I'm poor and I don't have 30 gold! But I'm training to help save Fort "
 "Pinewood!"
 msgstr ""
+"（懇願する）私は貧しくて、金貨を30枚も持っていません！ でも、Pinewood 砦の\n"
+"守りを助けるために、訓練します！"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1703
@@ -1665,6 +2030,10 @@ msgid ""
 "overrun the town, so ya got yerself a deal lass-- you promise to help defend "
 "the fort, and I promise to fund your training!"
 msgstr ""
+"タダで高品質な標的を使った訓練を提供するなんて、そりゃもう商売じゃねぇって"
+"知ってるかい？ 一方、もし「泥」が街を荒らせば、俺も商売どころじゃなくなる。そ"
+"う、おめぇさんは自分を使って取引したな、お嬢ちゃん──おめぇさんは砦の守りを手"
+"助けすると約束する。俺は、おめぇさんの訓練に投資すると約束する！"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1744
@@ -1672,16 +2041,18 @@ msgid ""
 "I'll be outta business if I just give away high quality quintain training "
 "for free ya know? Besides, ye don't look that poor ta me."
 msgstr ""
+"タダで高品質な標的を使った訓練を提供するなんて、そりゃもう商売じゃねぇって"
+"知ってるかい？ その上、おめぇさんは俺より貧乏には見えねぇ。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1752
 msgid "(Leave) I'm not interested in training right now."
-msgstr ""
+msgstr "（立ち去る）今私は、訓練に興味がありません。"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1756
 msgid "Come back soon!"
-msgstr ""
+msgstr "すぐ戻るさ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1774
@@ -1690,6 +2061,9 @@ msgid ""
 "hard, but it seems your efforts have paid off. You've unlocked some of the "
 "magical secrets of your elven host!)"
 msgstr ""
+"（あなたは息切れし、汗で光っています。あなたは本当にきつく頑張りましたが、そ"
+"の努力は報われたように思えます。あなたはエルフの宿主の魔法の秘密のいくつかを"
+"解きました！）"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1778
@@ -1699,6 +2073,10 @@ msgid ""
 "train, yer gonna have ta go ta the arena. Sergeant Ryn can help ya, but the "
 "risk will be greater."
 msgstr ""
+"おめぇさんは俺が今までに見た中じゃ、一番覚えが早いな、お嬢ちゃん。しかし、標"
+"的が相手じゃあ、倒したところで、これ以上覚えられることはねぇ。おめぇさんが訓"
+"練を続けたいなら、闘技場へ行かなきゃならんな。Ryn 軍曹が助けてくれるだろう"
+"が、危険も大きくなるぞ。"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1782
@@ -1708,17 +2086,21 @@ msgid ""
 "Injury is guaranteed. But if you have what it takes to compete you can earn "
 "some good money and get valuable combat experience."
 msgstr ""
+"Frist は俺に、お前は奴の訓練所の最高の生徒の一人だと言ったが、ここの闘技場で"
+"は、本物を扱っている。戦闘は激しく、死に至る。負傷することは保証する。しか"
+"し、お前が闘争を乗り越えたなら、ちょっとした良い金を稼げるし、貴重な戦闘経験"
+"も得られる。"
 
 #. [label]
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1789
 msgid "Arena"
-msgstr ""
+msgstr "闘技場"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1801
 msgid ""
 "When you're finished exploring Fort Pinewood, head back to the front gate!"
-msgstr ""
+msgstr "あなたが Pinewood 砦の探索を終えたなら、正門に向ってください！"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1834
@@ -1728,21 +2110,24 @@ msgid ""
 "fights are to the death. Healing is available from High Priest Jal to the "
 "east. "
 msgstr ""
+"剣闘士が栄光と利益のために怪物と闘う、Pinewood の闘技場へようこそ。剣闘士は、"
+"戦いが終わるまで闘技場から出られない。全ての戦いは死に至る。回復には、東の高"
+"僧 Jal が利用出来る。"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1838
 msgid "Do you want to compete?"
-msgstr ""
+msgstr "闘争を望むか？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1844
 msgid "I'm ready to fight!"
-msgstr ""
+msgstr "私は戦いの準備が出来ています！"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:1848
 msgid "Let the match begin!"
-msgstr ""
+msgstr "試合を始めよう！"
 
 #. [unit]: type=Blood Bat, id=Arena Monster
 #. [unit]: type=Drake Glider, id=Arena Monster
@@ -1759,22 +2144,22 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2045
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2078
 msgid "Arena Monster"
-msgstr ""
+msgstr "闘技場の怪物"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2105
 msgid "I'm not interested in fighting right now."
-msgstr ""
+msgstr "今私は、闘いに興味がありません。"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2109
 msgid "Fair enough. Come back when you're ready."
-msgstr ""
+msgstr "結構だ。準備が出来たら戻ってこい。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2126
 msgid "You are victorious and win 10 gold pieces!"
-msgstr ""
+msgstr "あなたは勝利して、金貨10枚を得ました！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2165
@@ -1783,6 +2168,9 @@ msgid ""
 "yourself into a mighty enchantress! You've learned to tap deeply into the "
 "magic power of your elven blood!"
 msgstr ""
+"あなたの武勇に並ぶ者はいません！ きつい努力と素晴らしい勇気で、あなたは強力な"
+"魔女へと自分を鍛え上げました！ あなたはエルフの血による魔力を、軽く叩いて深く"
+"究めることを学びました！"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2169
@@ -1791,6 +2179,8 @@ msgid ""
 "stock of monsters has been almost completely depleted! There is one last "
 "challenge that we can offer you..."
 msgstr ""
+"非常に印象的だ。残念ながら、お前が闘技場であまりに成功したため、我々は怪物の"
+"在庫を、ほぼ完全に使い果たした。我々がお前に提供出来る、最後の挑戦がある……"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2173
@@ -1800,42 +2190,45 @@ msgid ""
 "defeating the gryphon is 30 gold pieces, but the risk will be greater than "
 "any you've faced before."
 msgstr ""
+"我々は野性のグリフォンを持っている。鋭い爪と致命的な嘴を持つ、恐ろしい野獣"
+"だ。そいつは、既に4人の挑戦者を殺している。グリフォンを倒した報酬は金貨30枚だ"
+"が、その危険は、お前がこれまでに対面した何者よりもさらに高くなるだろう。"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2203
 msgid "Do you want to the fight gryphon?"
-msgstr ""
+msgstr "グリフォンとの戦いを望むか？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2209
 msgid "Yes!"
-msgstr ""
+msgstr "はい！"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2213
 msgid "Release the gryphon!"
-msgstr ""
+msgstr "グリフォンを解き放て！"
 
 #. [unit]: type=Gryphon, id=Bloodtalon
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2239
 msgid "Bloodtalon"
-msgstr ""
+msgstr "血塗れの爪"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2263
 msgid "Not right now."
-msgstr ""
+msgstr "いいえ、今は。"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2267
 msgid ""
 "Fair enough. No one will think less of you for walking away from this fight."
-msgstr ""
+msgstr "結構だ。この闘いから身を引いても、誰もお前を低く評価はしないだろう。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2284
 msgid "You are victorious and win 30 gold pieces!"
-msgstr ""
+msgstr "あなたは勝利して、金貨30枚を得ました！"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2296
@@ -1843,6 +2236,8 @@ msgid ""
 "What a spectacular fight! What a terrific victory! All hail Aurelia, "
 "Champion of the Pinewood Arena!"
 msgstr ""
+"何と劇的な闘いか！ なんと凄まじい勝利か！ Pinewood の闘技場の王者、Aurelia 万"
+"歳！"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2350
@@ -1850,11 +2245,12 @@ msgid ""
 "Welcome back, Champion! Unfortunately the arena is closed until we can "
 "restock our monster supply."
 msgstr ""
+"お帰り王者！ 残念ながら、怪物を仕入れて補充出来るまで、闘技場は閉鎖だ。"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2370
 msgid "(A young man in fine clothes approaches you and smiles.)"
-msgstr ""
+msgstr "（上等な服を着た、若い男があなたに近づき、微笑みかけます）"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2374
@@ -1862,20 +2258,22 @@ msgid ""
 "You have a very fine figure, if I may say so milady. May I have the honor of "
 "painting your picture?"
 msgstr ""
+"あなたは容姿に優れた方だ、と申し上げてもよろしいですか、ご婦人？ 私にあなたの"
+"肖像を描く栄誉を頂けませんか？"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2292
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2378
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2404
 msgid "(How to respond?)"
-msgstr ""
+msgstr "（何と応じますか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2380
 msgid ""
 "(Be suspicious) If you're a painter then what are you doing with those "
 "swords?"
-msgstr ""
+msgstr "（疑わしげに）あなたが画家なら、その剣で何をするつもりなんですか？"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2384
@@ -1885,16 +2283,20 @@ msgid ""
 "this backwater frontier town. Guarding the Mayor pays my bills, but one day "
 "I'll be famous enough to sell my art for a profit!"
 msgstr ""
+"正直申し上げて、私の本業は傭兵です。しかし、私の真の情熱は絵にあります。"
+"（苦々しげに）あぁ、この沈滞した辺境の街には、素晴らしい作品に対する感謝があ"
+"まりありません。町長の護衛は私のつけを支払うでしょうが、いつの日にか、私は私"
+"の芸術作品を売って儲けられるほど有名になるつもりです。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2389
 msgid "(Be friendly) Of course you can paint my picture!"
-msgstr ""
+msgstr "（親しげに）もちろん、あなたは私の絵を描くことが出来ます！"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2393
 msgid "(Excited) Thank you milady!"
-msgstr ""
+msgstr "（興奮して)ありがとうございます、ご婦人！"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2400
@@ -1902,11 +2304,14 @@ msgid ""
 "I'll pay you 30 gold for a day's worth of modeling services. (Hesitantly) "
 "Or...60 gold if I may paint you...in your natural, ahem, state."
 msgstr ""
+"1日モデルをしてくださるなら、私はあなたに金貨30枚を支払うつもりです。（躊躇い"
+"がちに）もしくは……金貨60枚を、もし私があなたの……生まれたままの、エヘン、状態"
+"を描けるなら。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2406
 msgid "(Refuse) I'm not about to take a job from a complete stranger."
-msgstr ""
+msgstr "（断る）私は全くの見ず知らずの人からの仕事を受けようとは思いません。"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2410
@@ -1914,11 +2319,13 @@ msgid ""
 "(Disappointed Sigh) I assure you I have no ulterior motives, milady, but..."
 "if that is your answer I suppose I must accept it. Good day to you. "
 msgstr ""
+"（失望のため息）私には他意がないことを保証します、ご婦人。しかし……それがあな"
+"たの答えなら、私はそれを受け入れなければならないのだと思います。良い一日を。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2415
 msgid "(Accept) You can paint me for 30 gold."
-msgstr ""
+msgstr "（引き受ける）あなたは金貨30枚で、私の絵を描くことが出来ます。"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2419
@@ -1927,17 +2334,19 @@ msgid ""
 "Thank you milady! I've never painted a specimen as exotic as an elf before! "
 "I wonder how much shading I should put on your ears..."
 msgstr ""
+"ありがとうございます、ご婦人！ 私はエルフほどに異国風な人を描いたことは、一度"
+"もありません！ あなたの耳に、どれほどの影をつけるべきかと思います……"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2423
 msgid "(You spend a day modeling for Fontaine!)"
-msgstr ""
+msgstr "（あなたは Fontaine のモデルとして一日を費やした！）"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2427
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2460
 msgid "(Fontaine's painting of you is actually quite good.) "
-msgstr ""
+msgstr "（Fontaine の絵は、実際のところかなり良い出来であった）"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2431
@@ -1945,22 +2354,24 @@ msgid ""
 "(Proud) One of my better works, to be sure. And here is your payment milady, "
 "you earned every copper."
 msgstr ""
+"（誇らしげに）確かに、私の良い作品の一つです。そしてこれがあなたへの報酬で"
+"す、ご婦人。あなたはあらゆる銅貨を稼ぎました。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2435
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2585
 msgid "You earned 30 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨30枚を稼いだ！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2448
 msgid "(Accept) You can paint me nude for 60 gold."
-msgstr ""
+msgstr "（引き受ける）あなたは金貨60枚で、私をヌードで描けます。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2456
 msgid "(You spend a day modeling nude for Fontaine!)"
-msgstr ""
+msgstr "（あなたは Fontaine のヌードモデルとして一日を費やした！）"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2464
@@ -1968,11 +2379,13 @@ msgid ""
 "(Proud) One of my better works, to be sure. And here is your payment milady, "
 "you earned every copper!"
 msgstr ""
+"（誇らしげに）確かに、私の良い作品の一つです。そしてこれがあなたへの報酬で"
+"す、ご婦人。あなたは銅貨にいたるまで稼ぎました！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2468
 msgid "You earned 60 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨60枚を稼いだ！"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2480
@@ -1980,11 +2393,13 @@ msgid ""
 "If I may be so bold milady, you are a goddess, a diva! I think I will make "
 "you my Muse..."
 msgstr ""
+"大袈裟かもしれないが、ご婦人。あなたは女神だ。私が思うに、あなたは私の芸術の"
+"女神となるだろう……"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2484
 msgid "?!"
-msgstr ""
+msgstr "？！"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2508
@@ -1992,6 +2407,9 @@ msgid ""
 "Fie and fiddle, where has my blasted book gone?! You! Elf! If you happen to "
 "see a thick silver tome, bring it to me immediately for a reward!"
 msgstr ""
+"えーい、時間の無駄だ、儂の呪われた本はどこへ行った？！ お前！ エルフ！ もし分"
+"厚い銀色の大冊を見かけるようなことがあったら、褒美をやるから、直ぐに儂のとこ"
+"ろへ持って来い！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2532
@@ -1999,6 +2417,8 @@ msgid ""
 "(This looks like the book that Livius is looking for. You can bring it back "
 "to him for a reward.)"
 msgstr ""
+"（これは Livius が探している本に似ています。あなたはこれを彼の元に戻せば、報"
+"酬を受け取ることが出来ます）"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2569
@@ -2006,6 +2426,8 @@ msgid ""
 "You found my book, 'Exotic Culinary Delights -- How to Serve Magical Oozes, "
 "Slimes, and Puddings'!"
 msgstr ""
+"お前は儂の本、「異国料理の楽しみ──魔法の泥、スライム、そしてプディングをお出"
+"しする方法」を見つけた！"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2581
@@ -2013,6 +2435,8 @@ msgid ""
 "Here's 30 gold pieces for your help (he tosses a pouch of coins at your "
 "feet)."
 msgstr ""
+"ここにお前の協力のための金貨が30枚ある。（彼は金貨の入った袋をあなたの足元に"
+"投げます）"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2597
@@ -2021,16 +2445,20 @@ msgid ""
 "harvesting the corpses of the slimy creatures. They're quite a delicacy, you "
 "know!"
 msgstr ""
+"帝国軍が「泥」の群れを叩き潰した後、儂はヌルヌルの死体を収穫して、一財産作る"
+"つもりだ。それはかなりの珍味だそうだぞ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2601
 msgid "(You had no idea you were tasty, much less a valuable food commodity)."
 msgstr ""
+"（あなたは自分がおいしいなどとは思っていませんでした。ましてや、食べ物として"
+"貴重な商品だ、などとは）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2603
 msgid "(Angry) You horrible man, get away from me!"
-msgstr ""
+msgstr "（怒って）酷い人、私から離れて！"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2607
@@ -2039,11 +2467,14 @@ msgid ""
 "They'd devour a helpless elf lass like yourself in moments! Bah! I don't "
 "have any more time to waste on you, I've got cooking preparations to make."
 msgstr ""
+"お前が何か見当違いの同情の念を怪物どもに抱いていないことを望むぞ。奴らはお前"
+"のように無力なエルフの少女など、瞬間的に喰らい尽くす！ ふん！ 儂にはこれ以上"
+"お前に浪費する時間はない。料理を作るための準備があるのでな。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2612
 msgid "(Wish him luck) Good luck, you're going to need it."
-msgstr ""
+msgstr "（彼の幸運を祈る）幸運を祈ります。あなたにはそれが必要になるでしょう。"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2616
@@ -2051,6 +2482,8 @@ msgid ""
 "No I won't but thanks all the same. Now if you'll excuse me, I've got "
 "cooking preparations to make."
 msgstr ""
+"そんなこともなかろうが、礼は言っておこう。では、失礼する。儂は料理を作るため"
+"の準備があるのでな。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2635
@@ -2058,11 +2491,12 @@ msgid ""
 "(You see a sun-tanned farmer by the roadside leaning heavily on his "
 "pitchfork.)"
 msgstr ""
+"（あなたは道端で日に焼けた農夫が、熊手に深く寄りかかっているのを見ます）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2641
 msgid "(Friendly) Hello sir! How are you this fine day?"
-msgstr ""
+msgstr "（親しげに）今日は！ 天気は良いし、ご機嫌いかが？"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2645
@@ -2071,6 +2505,9 @@ msgid ""
 "Can't bring the rest of my hay to market with a bad back, so I'm about to go "
 "broke. Have to sell the farm. So yeah, I've had better days."
 msgstr ""
+"（タバコを吐き出しながら）酷いもんさ。収穫だってのに腰をひねっちまってな。腰"
+"が悪くて、干し草の残りを収穫して市場に出せないから、俺は一文無しになろうとし"
+"てる。農場も売らなきゃならん。そうだな、いい時もあったさ。"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2649
@@ -2079,16 +2516,19 @@ msgid ""
 "hay before it rots. What do you say to 30 gold and a day's worth of honest "
 "labor?"
 msgstr ""
+"多分、あんたは助けてくれるだろ？ 俺は干し草の残りが腐っちまう前に、収穫のため"
+"の農場労働者を雇わなきゃならん。 一日の真っ当な働きの値打ちが、金貨30枚ならあ"
+"んたは何と言う？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2655
 msgid "(Small talk) So what's your opinion on the ooze crisis?"
-msgstr ""
+msgstr "（世間話の様に）それで、「泥」の危機に関するあなたのご意見は？"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2659
 msgid "(He spits some tobacco) The what crisis?"
-msgstr ""
+msgstr "（タバコを吐き出しながら）何の危機だって？"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2663
@@ -2096,21 +2536,23 @@ msgid ""
 "Surely you've heard that there's a horde of ravenous amorphous creatures "
 "rampaging across the countryside."
 msgstr ""
+"あなたは間違いなく、貪欲で不定形な怪物の群れが、僻地で暴れ回っていることを聞"
+"きました。"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2667
 msgid "(He stares at you blankly.)"
-msgstr ""
+msgstr "（彼はポカンとしてあなたを見つめています）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2671
 msgid "They beat the Pinewood Militia!"
-msgstr ""
+msgstr "そいつらは Pinewood の民兵を負かしました！"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2675
 msgid "Sorry, I don't get out much."
-msgstr ""
+msgstr "済まんが、俺はあまり出歩かないんだ。"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2679
@@ -2119,6 +2561,9 @@ msgid ""
 "idiot mayor of ours. Not a one of 'em ever did a hard days' work! But you "
 "lass, you look like you might be able to help me..."
 msgstr ""
+"俺は一介の農夫だ。怪物だの、民兵だの、われらが間抜けな町長だのに使う時間は無"
+"いんだよ。奴らの一人でも一日きつく働いたことなんてない！ でも、お嬢ちゃんな"
+"ら、俺を助けることも出来そうに見えるんだが……"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2683
@@ -2127,11 +2572,14 @@ msgid ""
 "farmhand to bring in those bushels o' hay oe'er yonder before they rot. What "
 "do you say to 30 gold and a day's worth of honest labor?"
 msgstr ""
+"夏の収穫だってのに腰をひねっちまってな。俺は腐っちまう前に、向こうのあの大量"
+"の干し草を収穫するための農場労働者を雇わなきゃならん。一日の真っ当な働きの値"
+"打ちが、金貨30枚ならあんたは何と言う？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2693
 msgid "(Agree to Help) I'll help you!"
-msgstr ""
+msgstr "（助けることに同意する）あなたを助けましょう！"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2697
@@ -2139,23 +2587,25 @@ msgid ""
 "(He spits some more tobacco) Great. The hay is right next to my farm. Return "
 "here when you're done."
 msgstr ""
+"（さらにタバコを吐き出しながら）ようし。干し草はまっすぐ行った隣の俺の農場"
+"だ。終わったらここへ戻ってきてくれ。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2719
 msgid "(Refuse) I don't have time for this."
-msgstr ""
+msgstr "（断る）私はこれに関わる時間がありません。"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2723
 msgid "(He spits some more tobacco) Suit yourself."
-msgstr ""
+msgstr "（さらにタバコを吐き出しながら）好きにしな。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2755
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2790
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2825
 msgid "(You help Jedd with some of his farm work.)"
-msgstr ""
+msgstr "（あなたはかなりの農作業をして Jedd を助けました）"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2872
@@ -2163,16 +2613,18 @@ msgid ""
 "You've been a great help, lass! The world needs more people like you! Here's "
 "your thirty gold, plus a little extra!"
 msgstr ""
+"大助りだったよ、お嬢ちゃん！ この世界には、あんたみたいなのがもっと大勢必要だ"
+"な！ ここに金貨30枚と、ちょっとのおまけがある！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2880
 msgid "You earned forty gold pieces!"
-msgstr ""
+msgstr "あなたは金貨40枚を稼いだ！"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2917
 msgid "Welcome to Brock's Tavern. Five gold pieces for full room and board!"
-msgstr ""
+msgstr "Brock の宿屋へようこそ。三食付きの部屋代が、金貨5枚だ！"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2927
@@ -2180,55 +2632,57 @@ msgid ""
 "Or perhaps you've come to challenge me, the Fort Pinewood Armwrestling "
 "Champion, to a contest of strength?"
 msgstr ""
+"それとも、ひょっとして Pinewood 砦の腕相撲王者であるこの俺に、力の勝負を挑み"
+"に来たのか？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2935
 msgid "(Stay at the Tavern) I want a room."
-msgstr ""
+msgstr "（宿屋に泊まる）部屋をお願いします。"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2945
 msgid ""
 "It looks like you don't have five gold. Come back when you have more gold."
-msgstr ""
+msgstr "お前は金貨5枚持ってるようには見えねぇな。もっと金のある時に来い。"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2957
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3010
 msgid "Splendid!"
-msgstr ""
+msgstr "素晴らしい！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2961
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3746
 msgid "You lost five gold pieces!"
-msgstr ""
+msgstr "あなたは金貨5枚を失いました！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2986
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3942
 msgid "You wake up the next day feeling refreshed!"
-msgstr ""
+msgstr "翌日、あなたは元気になった気分で目覚めます！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:2994
 msgid "(Challenge him) I want to challenge you."
-msgstr ""
+msgstr "（彼に挑戦する）私はあなたに挑戦したいと思います。"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3004
 msgid "Sorry lass, you've already challenged me, remember?"
-msgstr ""
+msgstr "ご免よ、お嬢ちゃん。お前はもう俺に挑戦しただろ、忘れたか？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3021
 msgid "(Leave) Goodbye."
-msgstr ""
+msgstr "（立ち去る）さようなら。"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3025
 msgid "Come again!"
-msgstr ""
+msgstr "また来いよ！"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3039
@@ -2237,6 +2691,9 @@ msgid ""
 "lass like you will put up much of a fight, but I never turn away a "
 "challenger, ha ha!"
 msgstr ""
+"幾人もの強い男どもが、俺を破ろうと挑戦して失敗してきた。お前みたいなちっちゃ"
+"なエルフのお嬢ちゃんが、大した闘いを提供出来るとも思えんが、俺は挑戦者を追い"
+"払ったりしない。ハッハッ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3047
@@ -2244,17 +2701,19 @@ msgid ""
 "(You both get into position. Looking at the size of the huge muscles on "
 "Brock's arm, you realize that he will not be easy to defeat.)"
 msgstr ""
+"（あなたたちは双方位置につきました。Brock の腕の巨大な筋肉を見て、あなたは彼"
+"を簡単に打ち破ることは出来ないと悟ります）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3051
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3567
 msgid "(What to do?)"
-msgstr ""
+msgstr "（どうしますか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3053
 msgid "(Force Brock's arm down with sheer brute strength)"
-msgstr ""
+msgstr "（本物の馬鹿力で Brock の腕を無理やり下ろす）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3063
@@ -2263,6 +2722,9 @@ msgid ""
 "you seem to be evenly matched, but gradually you prove yourself to be the "
 "stronger competitor and force his arm down. You won!)"
 msgstr ""
+"（力を込め、あなたの腕の筋肉が膨らみ、あなたと Brock の両方が呻きます。最初は"
+"互角に見えましたが、あなたは徐々に、自分がより強い競争相手であることを示し、"
+"彼の腕を無理やり下ろします。あなたは勝ちました！）"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3067
@@ -2271,6 +2733,9 @@ msgid ""
 "elf lass I've ever met! Good show! The reward for beating me is thirty "
 "pieces of gold, and you earned every bit of it!"
 msgstr ""
+"（最初、彼は驚いているようでしたが、そのうち大笑いします）お前は俺が今まで出"
+"会った中で、一番強いエルフのお嬢ちゃんだ！ 良い見せ物だった！ 俺を負かした賞"
+"金は金貨30枚だ。そしてお前は一片残らずそれを稼いだ！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3071
@@ -2281,7 +2746,7 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3381
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3430
 msgid "You gained thirty gold pieces!"
-msgstr ""
+msgstr "あなたは金貨30枚を得た！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3085
@@ -2290,6 +2755,8 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3214
 msgid "(Brock effortlessly pins your arm to the table. You lost!)"
 msgstr ""
+"（Brock は何の努力もせずにあなたの腕をテーブルにつけます。あなたは負けまし"
+"た！）"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3089
@@ -2300,11 +2767,13 @@ msgid ""
 "Don't be sad lass, many men far stronger than you have challenged me and "
 "lost."
 msgstr ""
+"悲しまなくてもいいさ、お嬢ちゃん。お前よりはるかに強い、多くの男どもが俺に挑"
+"戦して負けて来たんだ。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3096
 msgid "(Move quickly as soon as the match starts to take him by surprise)"
-msgstr ""
+msgstr "（試合が始まるや否や素早く動き、彼を驚かせます）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3106
@@ -2312,6 +2781,9 @@ msgid ""
 "(You move with blinding speed the instant the match starts. With a loud "
 "THUMP you slam Brock's arm down. He gapes at you in surprise. You won!)"
 msgstr ""
+"（試合が始まった瞬間に、目も眩むような速さで動き、ドンと言う大きな音ととも"
+"に、Brock の腕を下に押し付けます。彼は驚いてポカンと口を開け、あなたを見てい"
+"ます。あなたは勝ちました！）"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3110
@@ -2320,11 +2792,14 @@ msgid ""
 "overpower me so you counted on me underestimating you. Good show! The reward "
 "for beating me is thirty pieces of gold, and you earned every bit of it!"
 msgstr ""
+"俺は……俺は自分が負けたなんて信じられん。神かけて、お前は素早い。お前は俺を力"
+"で上回れないと知って、俺がお前を見くびることに期待した。良い見せ物だった！ 俺"
+"を負かした賞金は金貨30枚だ。そしてお前は一片残らずそれを稼いだ！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3139
 msgid "(Simply try and hold your ground to wear him out)"
-msgstr ""
+msgstr "（彼を疲れさせるため、単純に自分の位置を保ってみる）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3149
@@ -2334,6 +2809,9 @@ msgid ""
 "foreheads. But soon Brock has spent his strength and you're able to claim "
 "victory. You won!)"
 msgstr ""
+"（Brock は強力に押し込んで来ますが、あなたは辛うじて……持ちこたえられます。1分"
+"以上が経過し、双方の額に珠のような汗が浮かびます。しかし、すぐに Brock は彼の"
+"力を使い果たし、あなたは勝利を宣言出来ます。あなたは勝ちました！"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3153
@@ -2343,11 +2821,14 @@ msgid ""
 "The reward for beating me is thirty pieces of gold, and you earned every bit "
 "of it!"
 msgstr ""
+"俺は……俺は自分が負けたなんて信じられん。神かけて、お前は頑健だ。お前は俺を即"
+"座に上回れないと知って、俺が疲れ果てることに期待した。良い見せ物だった！俺を"
+"負かした賞金は金貨30枚だ。そしてお前は一片残らずそれを稼いだ！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3182
 msgid "(Try to get your arm into a superior position)"
-msgstr ""
+msgstr "（あなたの腕を優位な位置につけようとしてみる）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3192
@@ -2357,6 +2838,10 @@ msgid ""
 "With your superior position you're able to gradually force his arm down. You "
 "won!)"
 msgstr ""
+"（Brock はあなたに強く押し付けて来て、あなたは彼があなたを負かすまで、さほど"
+"時間がないことを悟ります。あなたは優位な位置を得ようとし、最終的にそれを得ま"
+"す！ 優位な位置を得たことで、あなたは徐々に彼の腕を押し込むことが出来ます。あ"
+"なたは勝ちました！）"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3196
@@ -2365,11 +2850,14 @@ msgid ""
 "seen anyone armwrestle like that before. Good show! The reward for beating "
 "me is thirty pieces of gold, and you earned every bit of it!"
 msgstr ""
+"俺は……俺は自分が負けたなんて信じられん。神かけて、あれは思いがけない方策だっ"
+"た。俺はこれまで、そんな風に腕相撲をする者を誰も見たことが無い。良い見せ物"
+"だった！ 俺を負かした賞金は金貨30枚だ。そしてお前は一片残らずそれを稼いだ！"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3245
 msgid "Back again? You only get one shot at my game, no pun intended."
-msgstr ""
+msgstr "またやるかい？ あんたは一発だけ撃てる。駄洒落じゃないがね。"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3258
@@ -2378,6 +2866,9 @@ msgid ""
 "bulls eye in ONE shot from THIRTY paces! Easy you say? Not really! BEHOLD "
 "the bows that you may use!"
 msgstr ""
+"お一人様でも、大勢さんでも寄ってらっしゃい！ あなたの弓術の腕を試して、賞金を"
+"勝ち獲ろう！ 30歩離れたところから、一発だけ撃って命中させよう！ 簡単だって？ "
+"いいや、そうじゃない！ 使用出来る弓を見よ！"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3262
@@ -2387,6 +2878,10 @@ msgid ""
 "uncertain origin. The third bow has a bowstring drawn so taut it looks like "
 "you might hurt yourself trying to draw it!)"
 msgstr ""
+"（派手な身振りで、彼は三つの奇妙な大弓を取り出して見せます。一つは巨人のため"
+"に作られたかに見える巨大な弓で、もう一方は産地不詳の、異国風に曲がった弓で"
+"す。三番目の弓はとても張り詰めた弦を持ち、それを引いたなら怪我をしそうに見え"
+"ます！）"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3266
@@ -2395,21 +2890,24 @@ msgid ""
 "enough to decipher the mysteries of the TYRAKIAN HORSEBOW? Or perhaps you're "
 "brave enough to try the BACKBREAKER BOW? Step right up to find out!"
 msgstr ""
+"あなたに「オーガの大弓」を使う力はあるかな？ それとも「Tyrakia の馬上弓」の秘"
+"訣を解き明かすほどに熟練しているかな？ はたまた、ひょっとすると「骨折り弓」を"
+"試すほどに勇敢かな？ 確かめるなら、まっすぐ上がって！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3270
 msgid "(Compete?)"
-msgstr ""
+msgstr "（勝負しますか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3272
 msgid "I want to try."
-msgstr ""
+msgstr "私は挑戦してみたいです。"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3276
 msgid "Now you have to choose what bow you're going to use..."
-msgstr ""
+msgstr "それじゃあ、どの弓を使うのか選ばなくちゃならない……"
 
 #. [option]: speaker=unit
 #. [option]: id=Master Ooze
@@ -2417,22 +2915,22 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1125
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3285
 msgid "(Leave)"
-msgstr ""
+msgstr "（立ち去る）"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3289
 msgid "Another time perhaps."
-msgstr ""
+msgstr "多分、また今度。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3312
 msgid "(What bow should you choose?)"
-msgstr ""
+msgstr "（どんな弓を選ぶべきか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3314
 msgid "(Choose the huge bow)"
-msgstr ""
+msgstr "（巨大な弓を選ぶ）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3327
@@ -2440,6 +2938,8 @@ msgid ""
 "(It takes all your strength to bend this bow. When you loose your arrow it "
 "thuds into the target with tremendous force. You did it!)"
 msgstr ""
+"（この弓を引くのには、あなたの全力が必要です。あなたが矢を放つと、それは凄ま"
+"じい勢いで、ドスッと的に中ります。命中しました！）"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3331
@@ -2448,22 +2948,27 @@ msgid ""
 "to be pretty STRONG to make a bow WORK how you want it to. Here is your "
 "PRIZE MONEY!"
 msgstr ""
+"お目出度う御座います！ 弓術とは単に射撃の腕だけのことではありません！ 時には"
+"弓を思い通りに扱うために、あなたはかなり強くなければなりません。ここに賞金が"
+"あります！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3349
 msgid "(Your efforts to bend the huge bow are completely futile. You failed!)"
 msgstr ""
+"（巨大な弓を引くためのあなたの努力は、完全に無駄に終わりました。あなたは失敗"
+"しました！）"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3353
 msgid ""
 "And it seems the OGRE'S LONGBOW has triumphed over yet ANOTHER contestant!"
-msgstr ""
+msgstr "さて、オーガの大弓が、さらに別の挑戦者を打ち負かしたようです！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3360
 msgid "(Choose the complicated foreign bow)"
-msgstr ""
+msgstr "（理解しがたい異質な弓を選ぶ）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3373
@@ -2472,6 +2977,9 @@ msgid ""
 "is oddly balanced, but you feel confident you can make it work. Your "
 "confidence pays off as your arrow thunks into the target. You did it!)"
 msgstr ""
+"（あなたはそれの感じを掴もうと、あなたのほっそりした指を、弓に沿わせて走らせ"
+"ます。それは奇妙に均衡を取っていますが、あなたはそれを扱えるという確信を感じ"
+"ます。あなたの確信通りに、矢は的にブスッと中ります。命中しました！）"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3377
@@ -2480,6 +2988,9 @@ msgid ""
 "to be pretty DEXTROUS to make a bow WORK how you want it to. Here is your "
 "PRIZE MONEY!"
 msgstr ""
+"お目出度う御座います！ 弓術とは単に射撃の腕だけのことではありません！ 時には"
+"弓を思い通りに扱うために、あなたはかなり器用でなければなりません。ここに賞金"
+"があります！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3398
@@ -2487,17 +2998,19 @@ msgid ""
 "(Your efforts to make the exotic bow work are completely futile. Your arrow "
 "flies off target and into the grass. You failed!)"
 msgstr ""
+"（異質な弓を扱おうとするあなたの努力は、完全に無駄に終わりました。あなたの矢"
+"は、的を外れ、草の中へ飛び込みました。あなたは失敗しました！）"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3402
 msgid ""
 "And it seems the TYRAKIAN HORSEBOW has triumphed over yet ANOTHER contestant!"
-msgstr ""
+msgstr "さて、Tyrakia の馬上弓が、さらに別の挑戦者を打ち負かしたようです！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3409
 msgid "(Choose the ultra-taut backbreaker bow)"
-msgstr ""
+msgstr "（極度に張り詰めた、骨折り弓を選ぶ）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3422
@@ -2505,6 +3018,9 @@ msgid ""
 "(The bow is aptly named. You nearly break your back trying to draw it! But "
 "your persistence pays off as your arrow thunks into the target. You did it!)"
 msgstr ""
+"（弓は適切に命名されています。それを引こうとして、あなたの背骨は折れる寸前で"
+"す！ しかし、あなたの粘り強さは、矢が的にグサッと中る事で報われました。命中し"
+"ました！）"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3426
@@ -2513,6 +3029,9 @@ msgid ""
 "to be pretty RESILIENT to make a bow WORK how you want it to. Here is your "
 "PRIZE MONEY!"
 msgstr ""
+"お目出度う御座います！ 弓術とは単に射撃の腕だけのことではありません！ 時には"
+"弓を思い通りに扱うために、あなたはかなり弾力的でなければなりません。ここに賞"
+"金があります！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3447
@@ -2520,11 +3039,14 @@ msgid ""
 "(The bow is aptly named. You nearly break your back trying to draw it! Your "
 "arrow flies a pitiful distance into the grass. You failed!)"
 msgstr ""
+"（弓は適切に命名されています。それを引こうとして、あなたの背骨は折れる寸前で"
+"す！ あなたの矢は、惨めな距離の草の中に飛び込みました。あなたは失敗しまし"
+"た！）"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3451
 msgid "And it seems the BACKBREAKER has triumphed over yet ANOTHER contestant!"
-msgstr ""
+msgstr "さて、骨折り弓が、さらに別の挑戦者を打ち負かしたようです！"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3480
@@ -2532,16 +3054,19 @@ msgid ""
 "All that drink'in shure wash fun. I think I'm gonna regret it in tha morning "
 "though."
 msgstr ""
+"こんなに飲めば、間違いなく楽しみも流されちまう。もっとも、朝になれば後悔する"
+"だろうがな。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3493
 msgid "(You see a surly looking dwarf leaning up against a gigantic barrel.)"
 msgstr ""
+"（あなたは不機嫌そうなドワーフが、巨大な樽に凭れかかっているのを見ます）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3497
 msgid "That's a BIG barrel you've got there..."
-msgstr ""
+msgstr "これはまた巨大な樽を持っていますね……"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3501
@@ -2549,11 +3074,14 @@ msgid ""
 "(His speech is slurred and you realize he's drunk) Yessh, yessh it is my "
 "pretty. And itsh mine, ALL mine!!! All tha booze in tha worldsh! Hic!"
 msgstr ""
+"（彼の話ぶりは不明瞭で、あなたは彼が酔っ払っているのだと悟ります）ふぁい、そ"
+"うれす、俺の可愛い娘ちゃんだよ。俺のだよ、全部俺の！ 世界中の酒は全部！ ヒッ"
+"ク！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3505
 msgid "So that barrel is full of liquor? Why do you need so much?"
-msgstr ""
+msgstr "それで、その樽は全部お酒ですか？ どうしてそんなに必要なんです？"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3509
@@ -2562,17 +3090,20 @@ msgid ""
 "when they get to Pinewood, ha ha hic! Or ats least thatsh what tha Mayor "
 "says."
 msgstr ""
+"橋を吹っ飛ばすためだよ、もちろん！ 街へ入る橋をさ。「泥」どもが Pinewood にた"
+"どり着いたら火あぶりだ、ハッハ。ヒック！ まぁ、少なくとも町長はそう言ってる。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3513
 msgid "(How to react?)"
-msgstr ""
+msgstr "（どう反応しますか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3515
 msgid ""
 "I don't think you're responsible enough to be the custodian of that barrel."
 msgstr ""
+"私はあなたが、その樽の管理人でいられるほど、信頼の置ける人だとは思えません。"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3519
@@ -2580,36 +3111,39 @@ msgid ""
 "Hic! I am TOO vigilant! You notish how none o' thosh oozes haf come ta town "
 "yet? They KNOWSH I could spots 'em a mile away! Hic!"
 msgstr ""
+"ヒック！ 俺は用心深すぎるからな！ お前は「泥」どもが未だに全然街に来てないっ"
+"てことに気付いたか？ 奴らは俺が1マイル離れたところからでも奴らを見つけられ"
+"るってことを知ってる！ ヒック！"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3523
 msgid "If yoush wants tha barrel, you gotta PROVE you deserve it!"
-msgstr ""
+msgstr "もしお前が樽を欲しいなら、お前がそれに相応しいと証明しな！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3527
 msgid "How?"
-msgstr ""
+msgstr "どうやって？"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3531
 msgid "Why, the only wayth you can prove anything! A drink'in contesht!"
-msgstr ""
+msgstr "そりゃあ、何でも証明出来る唯一の方法！ 飲み比べだ！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3543
 msgid "(Leave) I don't care about this."
-msgstr ""
+msgstr "（立ち去る）私はこれを気にしません。"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3547
 msgid "Goodb-hic!"
-msgstr ""
+msgstr "しゃいならヒック！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3569
 msgid "(Try and out-drink Ram Aide)"
-msgstr ""
+msgstr "（挑戦し、Ram Aide 以上に飲む）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3579
@@ -2618,6 +3152,9 @@ msgid ""
 "becomes hazy. After an hour you can barely stand, but Ram Aide has collapsed "
 "in a drunken stupor. You've won!)"
 msgstr ""
+"（あなたは強い酒を盃から盃へと飲みます。あなたの視界はぼやけ、世界は霞んでい"
+"きます。一時間後、あなたは辛うじて立っていられますが、Ram Aide は酔って昏睡し"
+"潰れました。あなたは勝ちました！）"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3588
@@ -2627,6 +3164,8 @@ msgid ""
 "You've gained possession of a gigantic barrel of booze. Perhaps you'll be "
 "able to find some use for it later."
 msgstr ""
+"あなたは巨大な酒の樽を獲得しました。恐らく、あなたは後ほど、それの使い途を見"
+"つけるでしょう。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3594
@@ -2636,6 +3175,10 @@ msgid ""
 "slurred and mocking laughter the last thing you hear before you slip into "
 "unconsciousness. You failed!)"
 msgstr ""
+"（あなたは強い酒を盃から盃へと飲みます。あなたの視界はぼやけ、世界は霞んでい"
+"きます。一時間後、あなたは酔って昏睡し潰れ、Ram Aide の不明瞭で馬鹿にしたよう"
+"にあざ笑っているのが、意識を失う前に聞いた最後のものでした。あなたは失敗しま"
+"した！）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3601
@@ -2643,6 +3186,8 @@ msgid ""
 "(Cheat in the drinking contest by quickly tossing the liquor in the grass "
 "when Ram Aide isn't looking)"
 msgstr ""
+"（飲み比べで、Ram Aide が見ていない時に、素早く酒を草地に捨てると言う、イカサ"
+"マをする）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3611
@@ -2650,6 +3195,8 @@ msgid ""
 "(Your cheating has paid off! Ram Aide collapses in a drunken stupor after an "
 "hour of hard drinking. You've won!)"
 msgstr ""
+"（あなたのイカサマはうまく行きました！ Ram Aide は、一時間激しく飲んだ後、"
+"酔って昏睡し潰れました。あなたは勝ちました！）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3626
@@ -2657,12 +3204,15 @@ msgid ""
 "(You aren't quick enough. Ram Aide notices your cheating and chases you away "
 "from his barrel at gunpoint. You failed!)"
 msgstr ""
+"（あなたは十分に素早くはありません。Ram Aide はあなたのイカサマに気づき、銃口"
+"を突きつけて彼の樽からあなたを追い払いました。あなたは失敗しました！）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3633
 msgid ""
 "(Deftly place some noxious herbs in Ram Aide's tankard when he isn't looking)"
 msgstr ""
+"（Ram Aide が見ていない時に、有害な薬草を手際よく彼のジョッキに入れる）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3643
@@ -2670,6 +3220,8 @@ msgid ""
 "(Your cheating has paid off! Ram Aide is forced to forfeit after getting "
 "sick. You've won!)"
 msgstr ""
+"（あなたのイカサマはうまく行きました！ 具合が悪くなった後、Ram Aide は、権利"
+"を放棄せざるを得ませんでした。あなたは勝ちました！）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3658
@@ -2677,72 +3229,75 @@ msgid ""
 "(You aren't dexterous enough. Ram Aide notices your attempt and chases you "
 "away from his barrel at gunpoint. You failed!)"
 msgstr ""
+"（あなたは十分に器用ではありません。Ram Aide はあなたの企みに気づき、銃口を突"
+"きつけて彼の樽からあなたを追い払いました。あなたは失敗しました！）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3665
 msgid "This is ridiculous, goodbye!"
-msgstr ""
+msgstr "馬鹿馬鹿しい、さようなら！"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3669
 msgid "Goodby-hic!"
-msgstr ""
+msgstr "しゃいならヒック！"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3700
 msgid "May the blessings of Pelor be upon thee, child."
-msgstr ""
+msgstr "あなたに Pelor の祝福がありますように、子よ。"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3713
 msgid "Would you be interested in making a donation to Pelor, god of healing?"
-msgstr ""
+msgstr "あなたは回復の神、Pelor に寄付することに興味は無いでしょうか？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3719
 msgid "(Make a small donation) Here's five gold pieces."
-msgstr ""
+msgstr "（小額を寄付する）ここに金貨5枚があります。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3729
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3771
 msgid "(Actually you don't have that much)"
-msgstr ""
+msgstr "（実のところ、あなたはそれほど持っていません）"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3742
 msgid "Thank you. May Pelor's light always shine upon you!"
-msgstr ""
+msgstr "感謝します。Pelor の光が、いつもあなたを照らしますように！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3761
 msgid "(Make a large donation) Here's fifty gold pieces."
-msgstr ""
+msgstr "（大金を寄付する）ここに金貨が50枚あります。"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3791
 msgid "My lady is MOST generous! You have gained a great ally in Pelor today!"
 msgstr ""
+"ご婦人は最高に寛大な方だ！ あなたは今日、Pelor と言う偉大な同盟者を得ました！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3799
 msgid "You lost fifty gold pieces!"
-msgstr ""
+msgstr "あなたは金貨50枚を失った！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3814
 msgid "(Decline to donate) Sorry, not today."
-msgstr ""
+msgstr "（寄付を断る）済みません、今日は駄目。"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3818
 msgid "Peace be with you."
-msgstr ""
+msgstr "無事を祈ります。"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3840
 msgid "Move along! Nothing to see here! Really! Go away!"
-msgstr ""
+msgstr "どっか行け！ 見せもんじゃねぇぞ！ ほんとだ！ 離れろ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3857
@@ -2751,16 +3306,18 @@ msgid ""
 "glinting off his shining armor and golden hair. There is something very "
 "familiar about him...)"
 msgstr ""
+"（凛々しく若いエルフの戦士が道の端に立っています。彼の輝く鎧と金髪が、日光を"
+"弾いています。何か、非常に馴染み深いものが彼にはあります……）"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3861
 msgid "Aurelia!!! (He rushes to embrace you)"
-msgstr ""
+msgstr "Aurelia!!! （彼はあなたを抱くために突進します）"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3865
 msgid "I've been looking all over for you!"
-msgstr ""
+msgstr "君のことは全部調べたよ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3869
@@ -2768,6 +3325,9 @@ msgid ""
 "(You may be in trouble...You recognize him as your host's boyfriend. You "
 "have memories of her spurning him a few months ago...)"
 msgstr ""
+"（あなたは困ったことになるかもしれません……あなたは、彼があなたの宿主の男友達"
+"であることを認めます。あなたには、彼女が数ヶ月前に、彼を撥ねつけた記憶があり"
+"ます……）"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3873
@@ -2777,6 +3337,10 @@ msgid ""
 "spiritual awakening. And I certainly didn't agree with you leaving our "
 "homeland for the human lands."
 msgstr ""
+"いいよ。そう、多分君は、Shinseki の森を浄化するための聖戦へと君を導いた、いく"
+"つかの精霊を覚醒させた。そして僕は、今言った精霊を覚醒させることに同意しな"
+"かったかもしれない。そして確かに、僕は君が人間の国のために僕達の故国を捨てる"
+"ことに同意しなかった。"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3877
@@ -2785,11 +3349,13 @@ msgid ""
 "is to be together again with you! Aurelia...(he gets down on his knees) will "
 "you take me back?"
 msgstr ""
+"でもね、ここ何ヶ月か、君なしで僕は迷子になってた。僕の望む全ては、また君と一"
+"緒にいることなんだ！ Aurelia……（彼は跪きます）戻ってくれるかい？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3883
 msgid "(Reject him) No! I hate you! Get away from me!"
-msgstr ""
+msgstr "（彼を拒絶する）いいえ！ 私はあなたが嫌い！ 私から離れて！"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3887
@@ -2797,6 +3363,8 @@ msgid ""
 "Aurelia...no! I...can't live without you! (He runs off, his face a picture "
 "of anguish.)"
 msgstr ""
+"Aurelia……いやだ！ 僕は……君なしでは生きられない！（彼は逃げ去り、彼の顔は苦悩"
+"を絵に描いたようです）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3892
@@ -2804,6 +3372,8 @@ msgid ""
 "(Extort him) If you really love me, prove it and give me all your money "
 "right now!"
 msgstr ""
+"（彼に無理強いする）もし本当に私を愛しているなら、証明して。\n"
+"今直ぐに、あなたのお金を全部私にちょうだい！"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3896
@@ -2812,16 +3382,18 @@ msgid ""
 "understand women. All I've got is 43 gold pieces. Don't spend it all in one "
 "place."
 msgstr ""
+"（当惑して）唯物論はやめると誓ったと思ったけど？ （ため息）僕は決して女性が理"
+"解できない。僕の持ってる全ては、金貨43枚だよ。全部を一ヶ所で使わないでね。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3900
 msgid "You gained 43 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨を43枚得た！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3913
 msgid "(Accept him) I'm, errr, glad you came!"
-msgstr ""
+msgstr "（彼を受け入れる）私は、ええと、あなたが来てくれて嬉しいわ！"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3917
@@ -2830,11 +3402,13 @@ msgid ""
 "since we first got together! Come, it's time we spent some quality time "
 "together."
 msgstr ""
+"（彼は繰り返しあなたにキスします）おぉ、Aurelia！ 今日は僕達が……初めて出会っ"
+"て以来の最高に幸せな日だ！ おいで、一緒に素晴らしい時を過ごそう。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3928
 msgid "(You spend quality time with Sithras!)"
-msgstr ""
+msgstr "（あなたは Sithras と素晴らしい時を過ごしました！）"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3947
@@ -2842,6 +3416,8 @@ msgid ""
 "I understand you have some things to take care of around town. I'll wait "
 "here for you until you're done."
 msgstr ""
+"僕は、君が街の周りに、何か世話しなくちゃならないものを持ってるってことを理解"
+"してる。君がそれを終わらせるまで、僕は君のためにここで待つよ。"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3964
@@ -2849,16 +3425,20 @@ msgid ""
 "Hello stranger. It's not often you see an elf in Fort Pinewood. It's said "
 "your kind knows about...sylvan problems...so maybe you'd be able to help me."
 msgstr ""
+"今日は、お客人。Pinewood 砦でエルフを見かけることは滅多にない。それがあなたの"
+"種族が……森の問題に関して知っていると言う……そう、多分、あなたは私を助けられる"
+"だろう。"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3968
 msgid "My brother used to own this cottage, but he was in the militia and..."
 msgstr ""
+"私の兄弟は、この自分の別荘をよく使っていたけれど、彼は民兵に入って、それで……"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3972
 msgid "Got eaten?"
-msgstr ""
+msgstr "食べられた？"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3976
@@ -2867,12 +3447,15 @@ msgid ""
 "cottage. Only problem is, there's this crazed fairy that keeps attacking me! "
 "Then she runs to hide in the forest when I call for the town guards!"
 msgstr ""
+"えぇ。もっとも、気にしなくて結構。私は奴を嫌っていた。それで、今は私が彼の別"
+"荘を相続した。唯一問題があって、ここには私を攻撃し続ける、この狂った妖精がい"
+"るんです！"
 
 #. [unit]: type=Elvish Druid, id=Dryad
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:672
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3981
 msgid "Dryad"
-msgstr ""
+msgstr "木の精"
 
 #. [message]: id=Dryad
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:3997
@@ -2880,6 +3463,8 @@ msgid ""
 "Lies! This land is mine! The human who used to live in the cottage was nice. "
 "But this new human tried to cut down my tree."
 msgstr ""
+"嘘！ この土地は私のもの！ この別荘に住んでいた人間は優しかった。でも、この新"
+"しい人間は、私の木を切り倒そうとしています。"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4001
@@ -2887,6 +3472,8 @@ msgid ""
 "It's my tree, not yours! I own this land now! Its been in my family for five "
 "generations."
 msgstr ""
+"それは私の木だ、お前のじゃない！ この土地も、今は私のものだ！ 五世代に渡って"
+"私の家族のものだった。"
 
 #. [message]: id=Dryad
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4005
@@ -2896,21 +3483,27 @@ msgid ""
 "is something new. I do not like it. The humans need to leave this place "
 "forever."
 msgstr ""
+"私にはあなたが言う「世代」が何なのか分からない。でも、私は、私の木が地面の中"
+"の、小さな芽に過ぎなかった頃からここに住んでいる。人間の街は、何か新しいもの"
+"です。私はそれが好きじゃない。人間たちは、この場所から永遠に離れる必要があり"
+"ます。"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4009
 msgid "Help me claim my inheritance and I'll reward you well."
-msgstr ""
+msgstr "私の相続権を主張するのを助けてください。そうしたら、お礼は弾みます。"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4018
 msgid "(Side with Guthry) I'll use my sylvan magic to banish this crazy dryad."
 msgstr ""
+"（Guthry に味方する）私は、この狂った木の精を追放するために、森の魔法を使いま"
+"しょう。"
 
 #. [message]: id=Dryad
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4022
 msgid "No! You're an elf! How could you side with--"
-msgstr ""
+msgstr "駄目！ あなたはエルフでしょう！ どうして──"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4026
@@ -2918,21 +3511,24 @@ msgid ""
 "Niste Siara Belkan! (You banish the dryad back into her tree. It will be "
 "many years before she will be able to emerge again.)"
 msgstr ""
+"Niste Siara Belkan！（あなたは木の精を彼女の木の中に追放しました。彼女が再び"
+"現れる事が出来るようになるまでには、何年もかかるでしょう）"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4034
 msgid "Thanks for the help! Here's fifty gold for your trouble."
 msgstr ""
+"お力添えに感謝します！ ここにあなたの骨折りのための金貨50枚があります。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4042
 msgid "You gained fifty gold pieces!"
-msgstr ""
+msgstr "あなたは金貨50枚を得た！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4055
 msgid "(Side with the Dryad) The Dryad was here first, she is in the right."
-msgstr ""
+msgstr "（木の精に味方する）"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4059
@@ -2941,6 +3537,9 @@ msgid ""
 "can't take this land by force, but mark my word, one day someone strong will "
 "come along who'll see my side of things!"
 msgstr ""
+"くそったれな木の精と、くそったれな木に抱かれた同情者め！ （脅すように）私は無"
+"理やりこの土地を手に入れる事は出来ないが、私の言葉を覚えておけ。ある日、私の"
+"味方をする、誰か強いものがここへ来るだろう！"
 
 #. [message]: id=Dryad
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4063
@@ -2949,6 +3548,9 @@ msgid ""
 "for a little while longer. If you ever need a friend of the Forest, I am "
 "here."
 msgstr ""
+"凶暴な人間を寄せ付けないように、助けてくれてありがとう。もっとも、ほんの少し"
+"の間だけかもしれない事が怖いけれど。もし、いつかあなたが森の友人を必要とする"
+"なら、私はここにいます。"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4095
@@ -2958,21 +3560,27 @@ msgid ""
 "enemies, just think of the possibilities! And all for the low, low price of "
 "thirty gold!"
 msgstr ""
+"金貨30枚で、あんただけのトロルの子供の奴隷が手に入るよ。手作業に使う、剣闘士"
+"の囲いに入れて金を賭ける、あんたの敵にけしかける、ちょっと可能性を考えてみて"
+"くれ！ そして、全部がたったの、たったの金貨30枚だ！"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4099
 msgid "Enslaving other creatures is wrong! How can you be so cold-hearted?!"
 msgstr ""
+"他の生き物を奴隷にするなんて間違ってる！ あなたはどうしてそんなに冷酷なの？！"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4103
 msgid "What do you care? You're not the one being sold on the auction block!"
 msgstr ""
+"あんたは何を気にかけてるんだ？ あんたは競売に掛けて売られる生き物じゃないだ"
+"ろ！"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4107
 msgid "I'll have the town guards arrest you!"
-msgstr ""
+msgstr "街の警備兵に、あなたを逮捕させてやる！"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4111
@@ -2981,6 +3589,8 @@ msgid ""
 "attitude, turn yourself around, and walk the other way! Or maybe I'll have "
 "Gorl teach you a lesson."
 msgstr ""
+"何で？ 奴隷はこの地方じゃ合法だ。独善的になってろよ。あっちを向いてどっか別の"
+"道を行け！ さもなきゃ、Gorl にお前に教訓を与えさせることになるぞ。"
 
 #. [message]: speaker=unit
 #. [message]: id=Gorl the Smasher
@@ -2988,7 +3598,7 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4115
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4269
 msgid "(Grunts)"
-msgstr ""
+msgstr "（ふぅーっ）"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4119
@@ -2996,16 +3606,18 @@ msgid ""
 "Come on Bryony, there's nothing to be gained from agitating the locals. We "
 "must stay focused on our mission!"
 msgstr ""
+"行きましょう Bryony、こんな場所で議論しても得られるものは何もないわ。私たちは"
+"任務に集中していなくては！"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4123
 msgid "We can't just walk away from something like this!"
-msgstr ""
+msgstr "私たちは、こんなことから、ただ立ち去るなんて出来ない！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4129
 msgid "I'll buy the troll whelp for 30 gold."
-msgstr ""
+msgstr "私はトロルの子供を、金貨30枚で買います。"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4133
@@ -3013,12 +3625,15 @@ msgid ""
 "I hope you realize that by patronizing this man's business you're only "
 "encouraging him!"
 msgstr ""
+"彼の商売を助けるのは、彼を助長するだけだと、あなたが悟ることを望みます！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4142
 msgid ""
 "(Side with Bryony) Slaving is an evil business! I think you should stop."
 msgstr ""
+"（Bryony の味方をする）奴隷商人は邪悪な商売です！ 私はあなたが辞めるべきだと"
+"思います。"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4146
@@ -3027,6 +3642,9 @@ msgid ""
 "slaving I've always had three meals a day and a soft bed to sleep in at "
 "night. What the hell do you elves know about poverty or evil?"
 msgstr ""
+"俺は以前は、Tarakin 市の道端で物乞いをしてたのさ。でも、奴隷商人になってから"
+"は、いつも一日三食飯が食えるし、夜は柔らかいベッドで寝ることも出来る。お前た"
+"ちエルフが、貧困や邪悪に関して一体何を知ってるってんだ？"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4150
@@ -3034,39 +3652,43 @@ msgid ""
 "Just because you had a rough life doesn't mean you're entitled to make other "
 "people suffer!"
 msgstr ""
+"あなたが辛い人生を送っていたからといって、他の人々を苦しませる権利があること"
+"を意味するわけじゃない！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4159
 msgid "(Don't get involved)."
-msgstr ""
+msgstr "（関わらない）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4163
 msgid "(The elf and the human are still arguing as you leave)"
-msgstr ""
+msgstr "（あなたが立ち去る時、エルフと人間はまだ論争しています）"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4192
 msgid ""
 "A pleasure doing business with you! Would you like to take your slave with "
 "you now?"
-msgstr ""
+msgstr "あなたと商売できて喜ばしい！ あなたの奴隷を、今連れていきますか？"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4196
 msgid "I'll pick him up shortly."
-msgstr ""
+msgstr "私はまもなく引き取りにきます。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4204
 msgid "You spent thirty gold pieces!"
-msgstr ""
+msgstr "あなたは金貨30枚を支払いました！"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4231
 msgid ""
 "You don't have that much money right now. Come back when you can pay me."
 msgstr ""
+"あんたは今、それだけの金を持ってない。払えるようになってから、俺のところへ来"
+"てくれ。"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4246
@@ -3075,11 +3697,14 @@ msgid ""
 "for you. That's what ten years of living on the streets of Tarakin City "
 "taught me. Why should I give up slaving? What's in it for me?"
 msgstr ""
+"誰だって、自分自身に注意してなけりゃならない。なぜなら、他の誰もそうしてはく"
+"れないからだ。それが Tarakin 市の路上で生活した10年が、俺に教えてくれたこと"
+"だ。なんで奴隷商人を辞めなきゃならん？ それが俺の何になる？"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4252
 msgid "You'll have a clear conscience."
-msgstr ""
+msgstr "あなたは潔白な心を持てるでしょう。"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4256
@@ -3087,6 +3712,8 @@ msgid ""
 "I'd rather be rich than have a clear conscience! Now leave, before I have "
 "Gorl here give you a pounding!"
 msgstr ""
+"俺は潔白な心を持つより、金持ちになる方がいいのさ！ さぁ、行きな。俺が Gorl に"
+"お前を粉々にさせる前に！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4261
@@ -3094,71 +3721,74 @@ msgid ""
 "I'll pay you money to work for me as a bodyguard. 50 gold pieces for the two "
 "of you!"
 msgstr ""
+"私はあなたたちを護衛として働かせるために、お金を払うつもりです。あなたたち二"
+"人に、金貨50枚！"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4265
 msgid "What do you think, Gorl?"
-msgstr ""
+msgstr "どう思う、Gorl？"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4273
 msgid "Gorl likes it."
-msgstr ""
+msgstr "Gorl はそれで良いとさ。"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4283
 msgid "Goodbye slavery, hello lucrative bodyguard contract!"
-msgstr ""
+msgstr "さようなら、奴隷商人、こんにちは、もうかる護衛の契約！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4287
 msgid "Wait for me here until I need you."
-msgstr ""
+msgstr "私があなたたちを必要とするまで待っていなさい。"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4291
 msgid "Yes ma'am!"
-msgstr ""
+msgstr "はい、ご婦人！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4299
 msgid "You spent 50 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨50枚を支払った！"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4327
 msgid "Come back when you have the money!"
-msgstr ""
+msgstr "金がある時に戻って来な！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4355
 msgid "(Have you finished exploring Fort Pinewood)?"
-msgstr ""
+msgstr "（あなたは Pinewood 砦の探索を終えますか？）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4357
 msgid "Yes (End Level)."
-msgstr ""
+msgstr "はい（章を終える）"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/3_Pinewood.cfg:4386
 msgid "Not yet."
-msgstr ""
+msgstr "いいえ、まだです。"
 
+# ###########
 #. [scenario]: id=4_Pinewood_Siege
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:3
 msgid "Pinewood Siege"
-msgstr ""
+msgstr "Pinewood の包囲"
 
 #. [objective]: condition=win
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:235
 msgid "Defend the Fort"
-msgstr ""
+msgstr "砦を守る"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:315
 msgid "That night there is a commotion at the Mayor's Manor."
-msgstr ""
+msgstr "その夜、町長の館で騒動がありました。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:421
@@ -3168,6 +3798,9 @@ msgid ""
 "and surrounds the fort. They clearly intend to sack the leaderless human "
 "town and kill everyone within it."
 msgstr ""
+"オークの暗殺者が街に潜入し、町長と彼の護衛たちを毒殺しました！ 一方、オークの"
+"大群が荒野から殺到して、街を取り囲みます。彼らは、指導者のいない人間の街を略"
+"奪し、皆殺しにする事を、明確に意図しています。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:425
@@ -3175,16 +3808,19 @@ msgid ""
 "(You realize that you have no choice but to try and unite the leaderless "
 "Solids and drive back the orcs)."
 msgstr ""
+"（あなたは、指導者のいない「硬い者たち」を団結させ、オークを撃退することを試"
+"みる他に、選択の余地が無いことを悟ります）"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:429
 msgid "Oh we're doomed, doomed! There's hundreds of orcs! There is no hope."
 msgstr ""
+"おぉ、俺たちはお終いだ、運の尽きだ！ 数百のオークがいる！ 何の望みもない！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:433
 msgid "I will organize the fort's defense if others will follow me."
-msgstr ""
+msgstr "私は他の者たちがついてくるなら、砦の守りを組織するつもりです。"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:437
@@ -3192,51 +3828,53 @@ msgid ""
 "Aye lass, I'll follow ye to the Hells and back! Yer the most talented "
 "student I ever had!"
 msgstr ""
+"了解、お嬢ちゃん。俺は地獄までおめぇさんについて行って、戻ってくるぜ！ おめぇ"
+"さんは俺の最高に才能のある生徒だからな！"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:441
 msgid "Count me in as well."
-msgstr ""
+msgstr "俺も数に入れて貰おう。"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:445
 msgid "No damned orc is gonna get his filthy claws on my tavern!"
-msgstr ""
+msgstr "くそったれなオークの汚ねぇ爪が、俺の宿屋にかかることは無ぇぜ！"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:449
 msgid "Let COURAGE be our vanguard and DOUBT our whipping-boy! To GLORY!"
-msgstr ""
+msgstr "我らの前衛に勇気を、そして我らの身代わりを疑え！ 栄光へ！"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:453
 msgid "Looks like our quarry has come to us."
-msgstr ""
+msgstr "私たちの獲物が来たようね。"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:457
 msgid "You're sure this is Blackfang's army?"
-msgstr ""
+msgstr "あなたはこれが「黒き牙」の軍勢だと確信しているの？"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:461
 msgid "Yeah, you can tell by their battle standards."
-msgstr ""
+msgstr "えぇ、あなたも奴らの軍旗だと見分けられるでしょう。"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:465
 msgid "There sure are a lot of them. I assume you have some sort of plan?"
-msgstr ""
+msgstr "確実に、奴らは大軍でいる。当然、あなたには何か計画があるんでしょう？"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:469
 msgid "Just follow the so-called elven sorceress for now."
-msgstr ""
+msgstr "当面は、いわゆるエルフの魔女についていくだけよ。"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:473
 msgid "What do you mean 'so-called sorceress'?! She is a sorceress!"
-msgstr ""
+msgstr "「いわゆる魔女」ってどういう意味？！ 彼女は魔法使いでしょ！"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:477
@@ -3245,21 +3883,24 @@ msgid ""
 "is actually true can be two very different things? I was planning to kill "
 "the creature but now it may be of use to us."
 msgstr ""
+"Bryony、私は何度あなたに、真実であるように見えることと、実際に真実であること"
+"は、全然別の事で有り得る、と言ったかしら？ 私は怪物を殺す計画を立てていたけれ"
+"ど、それが今、我々の役に立つかもしれない。"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:481
 msgid "What creature? Why do you always have to speak in riddles?"
-msgstr ""
+msgstr "怪物って何？ なぜ、あなたはいつも謎めいて話さなきゃならないの？"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:485
 msgid "(Sigh) Just start shooting orcs, all right?"
-msgstr ""
+msgstr "（ため息）とにかくオークを撃ち始めましょう、いい？"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:508
 msgid "Aurelia, today I will repay my debt to you!"
-msgstr ""
+msgstr "Aurelia、今日、私はあなたに借りを返すつもりだ！"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:512
@@ -3268,6 +3909,9 @@ msgid ""
 "Alignment) I guess I do care. (What did I just say?! I haven't been myself "
 "lately!)"
 msgstr ""
+"私は本当にこの砦のことなんて心配してないんだけど……（彼女は「反転の指輪」に触"
+"れます）心配してるんでしょうね。（私は今、何を言ったの？！ 最近、自分が自分"
+"じゃない！）"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:518
@@ -3275,6 +3919,8 @@ msgid ""
 "What is it with people interrupting my studies?! First that idiot paladin "
 "and now an orc horde! Someone will pay for this!"
 msgstr ""
+"私の研究を中断させる人って何なの？！ 最初は馬鹿な聖騎士、今度はオークの群"
+"れ！ 誰かがこの代償を払う事になるでしょう！"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:542
@@ -3282,6 +3928,8 @@ msgid ""
 "No foul orc will touch a single golden hair on the head of my beautiful, "
 "perfect Muse so long as I draw breath!"
 msgstr ""
+"私が息をしている限り、汚らわしいオークが、私の美しく、完璧な芸術の女神の金色"
+"の頭髪一本にすら触れることはない！"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:554
@@ -3289,11 +3937,13 @@ msgid ""
 "Aurelia, you helped me when I had no hope, so now I'll help help you against "
 "this orc horde, even if there is no hope of victory."
 msgstr ""
+"Aurelia、あんたは俺が何の希望も無くした時に助けてくれた。だから今、俺はあんた"
+"がオークの群れに立ち向かうのを助ける。たとえ勝つ見込みが全然無くてもな。"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:560
 msgid "Time for me to go hide in my cellar."
-msgstr ""
+msgstr "地下室に隠れる時だ。"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:575
@@ -3302,6 +3952,8 @@ msgid ""
 "prayer we will drive these heathen orcs back to the shadows from whence they "
 "came!"
 msgstr ""
+"Aurelia の敬虔な行いは、この闇の時代にあって光への道標だ。我々は剣と祈りで、"
+"これら異教のオークどもを、それらが出て来た影へと押し戻すだろう！"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:581
@@ -3309,12 +3961,15 @@ msgid ""
 "A battlefield is no place for a man of my stature. I'll be in my church..."
 "praying to Pelor for our inevitable victory."
 msgstr ""
+"戦場は私の才覚に合った場所ではない。教会に居ることにしよう……我らの必然の勝利"
+"のために、Pelor に祈ろう。"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:608
 msgid ""
 "Aurelia, my love...if we are to die today at least we will die together."
 msgstr ""
+"Aurelia、我が愛しき人……もし僕たちが今日死ぬのなら、少なくとも一緒に死のう。"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:633
@@ -3322,6 +3977,8 @@ msgid ""
 "(Sigh) Why did it have to be an orc horde? Why couldn't it have been an ooze "
 "horde?"
 msgstr ""
+"（ため息）なぜオークの群れでなくてはならん？ なぜ「泥」の群れであってはならん"
+"のだ？"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:659
@@ -3329,12 +3986,16 @@ msgid ""
 "I didn't inherit this land just to lose it to some thieving orc lord! I'm "
 "with you, Aurelia!"
 msgstr ""
+"私は盗っ人オークの首領に取られるために、この土地を相続したんじゃない！ 私はあ"
+"なたと一緒だ、Aurelia！"
 
 #. [message]: id=Dryad
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:683
 msgid ""
 "Aurelia, today I repay my debt to you! The orcs will feel Nature's fury!"
 msgstr ""
+"Aurelia、今日、私はあなたに借りを返します！ オークたちは、自然の憤激に触れる"
+"でしょう！"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:699
@@ -3342,17 +4003,19 @@ msgid ""
 "Thieving dryad! Despicable elf! I hope the orcs tear you both limb from "
 "limb! In fact, I intend to make sure of it!"
 msgstr ""
+"盗っ人の木の精！ 卑劣なエルフ！ オークどもがお前たち二人を八つ裂きにすること"
+"を望む！ それどころか、私はそれを実現させるつもりだ！"
 
 #. [unit]: type=Troll Whelp, id=Slave
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:712
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:760
 msgid "Slave"
-msgstr ""
+msgstr "奴隷"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:723
 msgid "(Your troll slave is ready for combat!)"
-msgstr ""
+msgstr "（あなたのトロルの奴隷は、戦う準備が出来ている！）"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:771
@@ -3360,12 +4023,14 @@ msgid ""
 "Reporting for duty ma'am! We even brought the troll slav-- errr...troll "
 "mascot with us to help out!"
 msgstr ""
+"任務について報告します、ご婦人！ 我々はトロルの奴──ええと、トロルの縁起物を"
+"も、我々を助けるために連れてきました！"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:788
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:832
 msgid "Oi what a hangover!"
-msgstr ""
+msgstr "うぃ、なんてぇ二日酔いだ！"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:792
@@ -3373,6 +4038,8 @@ msgid ""
 "What's this?! Th' entire town is up in arms and orcs are at th' gates? (Pats "
 "the gigantic barrel fondly) Baby, I'm gonna miss ya!"
 msgstr ""
+"こりゃ、何だ？！ 街全体が戦闘準備をして、オークどもが門にいる？（巨大な樽を優"
+"しく叩きます）可愛い娘ちゃん、いなくなると寂しくなるだろうよ！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:816
@@ -3380,6 +4047,8 @@ msgid ""
 "Ram Aide uses the gigantic barrel of booze to incinerate the bridge into "
 "town and a good portion of the nearby road as well!"
 msgstr ""
+"Ram Aide は巨大な酒樽を、街に入る橋と、おまけに近くの道路の良い部分を焼却する"
+"ために使います！"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:836
@@ -3387,16 +4056,18 @@ msgid ""
 "What's this?! Th' entire town is up in arms and orcs are at th' gates? "
 "(Groans) How did I drink that ENTIRE barrel?!"
 msgstr ""
+"こりゃ、何だ？！ 街全体が戦闘準備をして、オークどもが門にいる？（うめき声）俺"
+"はどうやって樽全部を飲んだんだ？！"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:886
 msgid "How would you like to increase the efficiency of your troops?"
-msgstr ""
+msgstr "あんたの軍勢の効率を上げたくはないか？"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:890
 msgid "Who are you?"
-msgstr ""
+msgstr "あなたは誰ですか？"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:894
@@ -3407,6 +4078,10 @@ msgid ""
 "they'll kill us all. So I'm willing to sell my wares to your troops at a "
 "significant discount!"
 msgstr ""
+"俺の名前は重要じゃない。俺の本業は闇市場の武器商人だ。普通の状態なら、俺の商"
+"売はもっと……内々の方法で運営されるんだが、今回のこれは、ほとんど普通じゃな"
+"い。もしオークが砦を侵略すれば、奴らは俺たちを皆殺しにするだろう。したがっ"
+"て、俺はかなりの値引きで、あんたの軍勢に商品を売る！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:898
@@ -3414,19 +4089,22 @@ msgid ""
 "You want to SELL us weapons? You're not just going to give them to us? "
 "Because, as you so correctly pointed out, if we lose, you die too."
 msgstr ""
+"あなたは武器を売りたいのですか？ 単に、私たちにそれを下さらないでしょうか？ "
+"なぜなら、あなたが正確に指摘した通り、私たちが負ければ、あなたも死ぬのだか"
+"ら。"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:902
 msgid ""
 "Sorry, this is a case of my overwhelming greed getting the better of my self "
 "preservation instincts."
-msgstr ""
+msgstr "済まないが、これは俺の圧倒的な強欲が、自己保存本能を上回る事例だ。"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:935
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1067
 msgid "30 gold will give one of your units poison for their melee attack."
-msgstr ""
+msgstr "金貨30枚で、あんたのユニットの一体の格闘攻撃が、毒入りになる。"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:939
@@ -3435,18 +4113,21 @@ msgid ""
 "melee capabilities. I only have the ability to do this ONCE, so choose who "
 "will receive this boon wisely."
 msgstr ""
+"金貨40枚で、あんたのユニットのどれか一体が、一度だけ、永続的に格闘攻撃の能力"
+"を向上させる。俺は一度だけしかこれをすることが出来ないから、誰がこの恩恵を受"
+"けるかは賢く選んでくれ。"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:944
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1071
 msgid "(What to buy?)"
-msgstr ""
+msgstr "（何を買いますか？）"
 
 #. [option]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:946
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1073
 msgid "(Pay 30 gold) Poison my melee weapons!"
-msgstr ""
+msgstr "（金貨30枚を払う）私の格闘武器を毒入りに！"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:956
@@ -3454,29 +4135,29 @@ msgstr ""
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1083
 msgid ""
 "It looks like you don't have that much. Come back when you have more gold."
-msgstr ""
+msgstr "あんたはそれだけ持って無いようだ。もっと金のある時に来てくれ。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:983
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1110
 msgid "You spent 30 gold pieces!"
-msgstr ""
+msgstr "あなたは金貨30枚を支払った！"
 
 #. [option]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:998
 msgid "(Pay 40 gold) Upgrade my melee weapons!"
-msgstr ""
+msgstr "（金貨40枚を払う）私の格闘武器を改良せよ！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1038
 msgid "You spent 40 gold pieces and your melee damage increased by 3!"
-msgstr ""
+msgstr "あなたは金貨40枚を支払い、あなたの格闘攻撃力は、3増加した！"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1057
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1129
 msgid "Come back any time (with more gold, preferably)!"
-msgstr ""
+msgstr "いつでもまた来てくれ！（なるべくなら、もっと多くの金とな）！"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1147
@@ -3484,12 +4165,16 @@ msgid ""
 "They're using ogres to pile boulders up in the moat, to make it easier for "
 "their troops to cross! Blackfang is quite clever for an orc."
 msgstr ""
+"奴らは奴らの軍勢が楽に渡れるように、オーガを使って濠に石を積んでいる！「黒き"
+"牙」は、オークにしてはかなり賢い。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1213
 msgid ""
 "It seems the orcs have hired naga mercenaries. They're trying to flank you!"
 msgstr ""
+"オークがナーガの傭兵を雇ったようです。彼らはあなたの側面を攻撃しようとしてい"
+"ます！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1282
@@ -3499,11 +4184,14 @@ msgid ""
 "fort, shoulder to shoulder, for as far as the eye can see. You may be in "
 "trouble."
 msgstr ""
+"初期の攻撃は、あなたの防備を確かめるためだけに計画されたように思えます。つい"
+"にオーク軍の前衛が到着しました。目で見ることの出来る範囲では、彼らは砦に向"
+"かって密集して進軍しています。あなたは面倒なことになるでしょう。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1501
 msgid "Naga mercenaries suddenly emerge from the town well!"
-msgstr ""
+msgstr "ナーガの傭兵が、突然街の井戸から出現した！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1578
@@ -3511,12 +4199,14 @@ msgid ""
 "A necromancer and his minions suddenly burst out of the town crypt! It seems "
 "they, too, are in the pay of the orcs."
 msgstr ""
+"死霊使いと彼の手下が、突然街の地下聖堂から飛び出した！ 彼らもまた、オークに雇"
+"われているようです。"
 
 #. [unit]: type=Orcish Sovereign, id=Blackfang
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1750
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1979
 msgid "Blackfang"
-msgstr ""
+msgstr "「黒き牙」"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1865
@@ -3525,11 +4215,14 @@ msgid ""
 "you have ever seen. His black spiked armor and sword mark him as Blackfang, "
 "leader of the Black Horde."
 msgstr ""
+"オークの群れの隊列が、あなたが今までに見た中で最も大きなオークに道を開けるた"
+"め、直ちに分かれます。彼の黒い刺のついた鎧と剣が、彼が「黒き牙」、黒い群れの"
+"首領であることを示します。"
 
 #. [message]: id=Blackfang
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1870
 msgid "Blackfang IS HERE!!!"
-msgstr ""
+msgstr "「黒き牙」はここだ！！！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1874
@@ -3537,6 +4230,8 @@ msgid ""
 "The orcs cheer and howl in applause, waving tattered banners in homage to "
 "their brutal leader."
 msgstr ""
+"オークたちは歓声と遠吠えで称賛し、彼らの残忍な指揮官に敬意をあらわすため、ぼ"
+"ろぼろの旗印を振ります。"
 
 #. [message]: id=Blackfang
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1879
@@ -3545,6 +4240,9 @@ msgid ""
 "veterans yet. How pathetic. If I'd known it would be this easy to raze "
 "Pinewood, I'd have attacked months ago!"
 msgstr ""
+"既にこの砦の守りは揺らいでいるし、俺は古参兵を送ってさえいない。何と哀れな。"
+"Pinewood を完全に破壊することが、こんなに簡単だと知っていれば、何ヶ月も前に攻"
+"撃していたのにな！"
 
 #. [message]: id=Blackfang
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1883
@@ -3552,16 +4250,19 @@ msgid ""
 "Well troops, you know the drill: Kill everyone. Destroy everything. The orc "
 "who brings me their leader's head on a pike gets an immediate promotion!"
 msgstr ""
+"さて兵士たちよ、お前たちは演習を経験している。皆殺しにしろ。全てを破壊しろ。"
+"奴らの指揮官の首を槍に掲げて俺の前に持って来たオークは、即座に昇進させてや"
+"る。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1887
 msgid "This is impossible! There's just too many of them and not enough of us!"
-msgstr ""
+msgstr "これは不可能です！ 彼らはただ多過ぎて、私たちは数が足りてはいません！"
 
 #. [unit]: type=Dragoon, id=Captain Koltz
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1893
 msgid "Captain Koltz"
-msgstr ""
+msgstr "Koltz 大尉"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1930
@@ -3570,6 +4271,9 @@ msgid ""
 "smash through a platoon of orcish infantry and reach the north side of the "
 "fort! The surviving townsfolk are beside themselves with joy."
 msgstr ""
+"小編成の帝国の騎兵隊が、突然地平線に現れました！ 彼らはオークの歩兵の小隊を突"
+"き抜け、砦の北側に到達します！ 生き残っている街の住民たちは、喜びに我を忘れて"
+"います。"
 
 #. [message]: id=Blackfang
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1935
@@ -3577,16 +4281,17 @@ msgid ""
 "How annoying! Leave it to the Imperial Army to show up and ruin a perfectly "
 "good day."
 msgstr ""
+"何と苛立たしい！ 帝国軍が現れて、まったくの良い日を台無しにするに任せるとは。"
 
 #. [message]: id=Captain Koltz
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1939
 msgid "Looks like we arrived just in time! Are you in charge here?"
-msgstr ""
+msgstr "我々はちょうど間に合ったようだ！ あなたがここを預かっているのか？"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1943
 msgid "Yes."
-msgstr ""
+msgstr "はい。"
 
 #. [message]: id=Captain Koltz
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1947
@@ -3596,6 +4301,10 @@ msgid ""
 "of the fort. He's bringing his personal bodyguards with him. I'm not sure if "
 "he'll arrive by the time the battle is finished though."
 msgstr ""
+"私は帝国軍第五騎兵隊の Koltz 大尉。何なりとお申し付け下さい。あなたは帝国の議"
+"員の一人もまた、砦の守りを助けるために向かっている途中であることを知るべきで"
+"しょう。彼は彼の個人的な護衛を連れて来ています。もっとも、戦いが終わる時まで"
+"に彼が到着するかどうか、私には確信がありませんが。"
 
 #. [message]: id=Captain Koltz
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1951
@@ -3604,11 +4313,14 @@ msgid ""
 "like orcish reinforcements have already closed the gap we made. Looks like "
 "we're stuck here with you."
 msgstr ""
+"我々は砦を包囲するオークを貫き、道を切り開いて来ましたが、オークどもの援軍"
+"が、すでに我々が作った隙間を閉じたように見えます。我々はあなたと共に、ここか"
+"ら動けなくなったようです。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1955
 msgid "Yes, I'm afraid it's going to be a fight to the finish."
-msgstr ""
+msgstr "はい、残念ながら戦いは終わりに向かっているようです。"
 
 #. [message]: id=Captain Koltz
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1959
@@ -3616,11 +4328,13 @@ msgid ""
 "We're outnumbered at least twenty to one, but perhaps if we kill the orcish "
 "leader we'll be able to escape the fort in the ensuing chaos."
 msgstr ""
+"我々は少なくとも20対1で上回られていますが、オークの首領を殺すことが出来れば、"
+"続く混沌の中で砦を脱出することも、多分出来るでしょう。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1963
 msgid "There hasn't been an opportunity to strike at Blackfang directly yet."
-msgstr ""
+msgstr "今までは「黒き牙」を直撃する機会がありませんでした。"
 
 #. [message]: id=Captain Koltz
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:1967
@@ -3629,16 +4343,19 @@ msgid ""
 "Blackfang might be goaded into personally leading his troops in battle. That "
 "will be our time to strike."
 msgstr ""
+"それでは、我々は数を保ち、時を待たねばなりません。我々が十分なオークを殺せ"
+"ば、「黒き牙」を個人的に軍勢を率いる闘いに駆り立てられるかもしれません。それ"
+"こそ我々が攻撃する時になるでしょう。"
 
 #. [message]: id=Blackfang
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2011
 msgid "Hah, what a bloodbath! Rally to me, men! We finish them now!"
-msgstr ""
+msgstr "ハァ、何という大虐殺！ 兵隊ども、集まれ！ 今こそ奴らを終わらせる！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2022
 msgid "Hragh! How could I be beaten by someone so pathetic?"
-msgstr ""
+msgstr "フグゥ！ どうしてこんな無価値な誰かが俺を倒せるのだ？"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2029
@@ -3646,6 +4363,8 @@ msgid ""
 "The orcs, demoralized by the death of their leader, flee the battlefield! "
 "You are victorious!"
 msgstr ""
+"首領の死に士気を挫かれたオークたちは、戦場から逃げ去っていきます！ あなたは勝"
+"利しました！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2034
@@ -3655,6 +4374,11 @@ msgid ""
 "Against impossible odds you saved Fort Pinewood from the Black Horde! Bards "
 "will surely sing praises of your heroism for generations to come!"
 msgstr ""
+"最後のオークが地平線へと姿を消した時、守備する者たちは、不揃いな歓声を上げま"
+"す。殺されたオークたち、燻っている炎、そして破壊された兵器が至る所に横たわっ"
+"ています。不可能という見込みに対して、あなたは黒い群れから Pinewood 砦を救い"
+"ました！ 間違いなく、吟遊詩人たちは末代まで、あなたの武勇を讃える歌を歌うで"
+"しょう！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2039
@@ -3664,11 +4388,15 @@ msgid ""
 "reinforcements arrive, too late to affect the outcome of the battle. But you "
 "soon realize that these newcomers are not normal Imperial soldiers."
 msgstr ""
+"血塗れで、疲労した街の住民たちは、負傷者たちを助け、多大な損害を受けた砦を修"
+"復する任務へと向きを変え始めます。さらなる帝国の援軍が、戦いの結果に影響を与"
+"えるにはあまりに遅く到着します。しかし、あなたはすぐに、これらの新顔は普通の"
+"帝国の兵士では無いことに気づきます。"
 
 #. [unit]: type=Great Mage, id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2048
 msgid "Master Keiron"
-msgstr ""
+msgstr "支配者 Keiron"
 
 #. [message]: id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2186
@@ -3677,6 +4405,9 @@ msgid ""
 "place was nothing more than a few huts by a trade crossroads. It's good to "
 "be back!"
 msgstr ""
+"（破壊された砦を穏やかに見つめ）あぁ、Pinewood。私はこの場所が、交易の十字路"
+"のそばの、いくつかの小屋であったに過ぎなかったことを憶えている。戻って良かっ"
+"た！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2199
@@ -3684,6 +4415,8 @@ msgid ""
 "There will be time for nostalgia later, sir! We've got wounded soldiers that "
 "need help!"
 msgstr ""
+"閣下、郷愁のための時間は後にもあるでしょう！ 私たちには、助けが必要な負傷兵が"
+"います！"
 
 #. [message]: id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2203
@@ -3691,11 +4424,13 @@ msgid ""
 "(He seems to be talking to himself) It speaks, it speaks! Oh how wonderful! "
 "I feel like I've met the child I never knew I had!"
 msgstr ""
+"（彼は自分自身と会話している様に見えます）喋った。喋った！ おぉ、何と素晴らし"
+"い！ 居ることさえ知らなかった子供に会ったような気分だ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2207
 msgid "(Is this man crazy?)"
-msgstr ""
+msgstr "（この人は狂っている？）"
 
 #. [message]: id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2211
@@ -3704,6 +4439,9 @@ msgid ""
 "try to create Life itself is...difficult. Impossible perhaps? A thousand "
 "failures and finally my one success...you!"
 msgstr ""
+"そうだ、そうだ、私がお前を造ったのは若い頃だった。無害な娯楽だった、本当に。"
+"生命そのものを造ろうとすることは……難しい。恐らく不可能か？ 千回の失敗と、最後"
+"に一度だけの成功……お前だ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2215
@@ -3711,6 +4449,8 @@ msgid ""
 "(You have a very odd feeling about this old man. You're certain you've never "
 "met him before yet he seems strangely familiar... )"
 msgstr ""
+"（あなたはこの老人に関して、とても妙な感じがあります。あなたは彼が奇妙に馴染"
+"み深く思えるより前に、彼に一度も会ったことがないことを確信しています……）"
 
 #. [message]: id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2219
@@ -3719,6 +4459,9 @@ msgid ""
 "you life. Alas, urgent business at the Imperial Court called me away from my "
 "studies, all those years ago. But I never forgot about you, oh no!"
 msgstr ""
+"それは私の人生、私の魂を持って行った。志せば、いつか成し遂げる。お前に命を与"
+"えるために。あぁ、帝国の廷臣の緊急の用件が、私の研究を、それら全ての年月を呼"
+"び起こした。しかし、私は決してお前の事を忘れてはいなかったのだ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2223
@@ -3727,6 +4470,9 @@ msgid ""
 "underground laboratory are hazy and vague...your mind is so much more clear "
 "and sharp since you've taken over the elf.)"
 msgstr ""
+"（この男があなたを造ったのでしょうか？ それら初期の時代のあなたの記憶は、曖昧"
+"ではっきりしません……あなたがエルフを引き継いで以来、あなたの心ははるかに明確"
+"で鮮明です）"
 
 #. [message]: id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2227
@@ -3736,6 +4482,10 @@ msgid ""
 "my baby, the object of so many countless hours of research...come forth and "
 "let me see you in your true form!"
 msgstr ""
+"そして成長し、進化した！ もう単なる「泥」ではない。お前は「硬い」姿を取ってい"
+"る！ お前の生命力は、百倍にも増えている！ お前は私の計画、私の子供、数え切れ"
+"ぬほどの時間をかけた研究の目的……見えるところへ出て来て、お前の真の姿で私にお"
+"前を見せてくれ！"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2231
@@ -3743,6 +4493,8 @@ msgid ""
 "(Your Solid form shudders and spasms. Somehow the mage has magically "
 "compelled you to come out of your hiding place!)"
 msgstr ""
+"（あなたの「硬い」姿は震え、痙攣します。魔術師はあなたを隠れ場所から出て来る"
+"よう、何らかの魔法で強制しました！）"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2272
@@ -3751,6 +4503,9 @@ msgid ""
 "moments ago looked upon you as their leader and savior, now look at you with "
 "revulsion and horror.)"
 msgstr ""
+"（あなたはかなりの量のぬるぬるの「泥」を吐き出しました！ つい先刻まであなたを"
+"指導者や救世主として見ていた街の住民たちは、今や、急変と恐怖をもってあなたを"
+"見ています）"
 
 #. [message]: id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2276
@@ -3759,11 +4514,14 @@ msgid ""
 "but when I heard rumors of a disturbance in the Pinewood territories I "
 "somehow knew you were behind it. Yes, we are linked, born of one spirit."
 msgstr ""
+"おぉ、お前は何と美しい！ 帝国の議会の仕事は私を忙しくさせていたが、Pinewood "
+"方面の騒動の噂を聞いたとき、私はどうにかお前が背後にいたことを知った。そう"
+"だ、我々は繋がっている、一つの精神として生まれたのだ。"
 
 #. [message]: id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2280
 msgid "What a terrible shame I'm going to have to kill you."
-msgstr ""
+msgstr "お前を殺さなければならないとは、何と酷い恥辱だろう。"
 
 #. [message]: id=Imperial Mage
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2288
@@ -3773,6 +4531,10 @@ msgid ""
 "that lifeforce back into myself, becoming the most powerful mage ever! Not "
 "even the Emperor will be able to stand against me!"
 msgstr ""
+"実のところ、お前はお前の成功の犠牲者なのだ。何百もの生き物を食べることによっ"
+"て、お前は大きさと生命力を大いに増加させた。今、私はその生命力を私自身に返"
+"し、かつてない最強の魔術師になるつもりだ！ 皇帝さえも、私に立ち向かうことは出"
+"来ないだろう！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2294
@@ -3780,6 +4542,8 @@ msgid ""
 "(Evil) If you can absorb my lifeforce then I can absorb yours! I'll devour "
 "you all!"
 msgstr ""
+"（邪悪）お前が私の生命力を吸収出来るなら、私はお前を吸収出来る！ 私はお前たち"
+"全てを貪り喰らうだろう！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2298
@@ -3791,17 +4555,24 @@ msgid ""
 "that had lain dormant within them erupt! Cries of shock and agony resonate "
 "throughout the fort as you devour the townsfolk from the inside out!"
 msgstr ""
+"一旦あなたの造り主を食べると、あなたは完全になるでしょう！ Pinewood からのあ"
+"なたの仲間たちは、もうあなたを支援しないでしょうが、それは重要ではありませ"
+"ん。Pinewood でのあなたの時間の間、あなたは地元の井戸を、あなた自身の小さな断"
+"片で汚染していました。街の人々は知らずに汚染された水を飲んでいました。そして"
+"今、彼らの中で横たわり眠っていた「泥」が噴出しました！ 街の人々が内部から貪り"
+"食われる時、衝撃と苦痛の悲鳴が、砦中に共鳴します！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2373
 msgid "Now you've got a lot more oozes with which to eat your Creator!"
 msgstr ""
+"今、あなたにはあなたの造り主を食べるためより、ずっと多くの「泥」があります！"
 
 #. [objective]: condition=win
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2384
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2474
 msgid "Kill your Creator!"
-msgstr ""
+msgstr "あなたの造り主を殺せ！"
 
 #. [option]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2401
@@ -3810,6 +4581,10 @@ msgid ""
 "evil! He didn't come to Pinewood to save you, only to slay me and plot "
 "treason against the Empire!"
 msgstr ""
+"（善）Pinewood のみなさん、私は怪物かもしれませんが、しかし、この魔術師はより"
+"大きな邪悪です！\n"
+"彼は Pinewood にあなたたちを救いに来たのではなく、私を殺して帝国に対する反逆"
+"を企んでいるだけです！"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2405
@@ -3817,6 +4592,8 @@ msgid ""
 "Treason against the Empire can never be forgiven! The mage dies first, I'll "
 "hold judgement on the ooze creature for now."
 msgstr ""
+"帝国に対する反逆は、決して許すことは出来ない！ 魔術師の死が第一で、「泥生物」"
+"に対する判断は、当面差し控える。"
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2409
@@ -3824,6 +4601,8 @@ msgid ""
 "(Shocked) Aurelia, what has happened to you?! I don't understand this at "
 "all. But I can't let the mage hurt you, my love."
 msgstr ""
+"（衝撃を受け）Aurelia、君に何があったんだ？！ 僕にはこれが全然理解出来ない。"
+"でも、僕には魔術師に君を傷つけさせることは出来ない、我が愛しき人よ。"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2413
@@ -3831,6 +4610,8 @@ msgid ""
 "My Muse?! I...don't know what you are anymore...but I will continue to fight "
 "with you, for now at least."
 msgstr ""
+"私の芸術の女神？！ 私には……あなたが最早いないとは思えない……しかし、私はあなた"
+"と共に戦いを続けるつもりです。少なくとも当分の間は。"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2417
@@ -3838,6 +4619,8 @@ msgid ""
 "Oi! I've had waaay too many drinks! Now I'm see'n oozes come outta nowhere "
 "an' crazy wizards to boot!"
 msgstr ""
+"うーぃ！ 飲み過ぎにはもう飽き飽きしたぜ！ さて、俺には「泥」と、おまけに狂っ"
+"た魔術師までが、どこからともなく現れたのが見える！"
 
 #. [message]: id=Shady Character
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2421
@@ -3845,6 +4628,8 @@ msgid ""
 "Don't worry, it's business as usual between us. I've sold weapons to far "
 "worse monsters than you, no offense."
 msgstr ""
+"心配するな、俺たちの間ではいつもの商売だ。俺はあんたよりはるかに悪い怪物にも"
+"武器を売ったんだ。悪気は無いが。"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2425
@@ -3853,6 +4638,9 @@ msgid ""
 "lacking in faith! The Imperial mage reeks of evil, the ooze less so. The "
 "mage will be slain first."
 msgstr ""
+"Pelor の輝かしい光は、信仰に欠ける者の上に死と破壊を雨の様に降らせるだろう！"
+"帝国の魔術師は邪悪の悪臭を放ち、「泥」はそうでもない。魔術師が最初に殺される"
+"べきだ。"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2429
@@ -3860,6 +4648,8 @@ msgid ""
 "Fascinating! I've always wanted to study a magic ooze creature. Oh yes, and "
 "after this Imperial mage is dead I'm definitely taking his spellbooks!"
 msgstr ""
+"魅惑的！ 私は常々魔法の「泥」生物を研究したいと思っていた。おぉ、そうだ、この"
+"帝国の魔術師が死んだ後、私は確実に彼の呪文の本を手に入れる！"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2433
@@ -3868,6 +4658,9 @@ msgid ""
 "evil...so much evil in the world...Though I feel some evils may be redeemed, "
 "this mage is beyond salvation!"
 msgstr ""
+"Corinna は邪悪、帝国も邪悪、今や私のエルフの恩人が邪悪だと明らかにされた……こ"
+"の世界には邪悪が多すぎる……もっとも、いくつかの邪悪は贖うことが出来るかも知れ"
+"ないと私は感じるが、この魔術師は救済を越えている！"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2437
@@ -3875,6 +4668,8 @@ msgid ""
 "(Spits tobacco) Oh, a chance to kill a corrupt government official! I "
 "wouldn't miss this for the world!"
 msgstr ""
+"（タバコを吐き出し）おぉ、堕落した政府の役人を殺す好機じゃねぇか！ 俺は世の中"
+"のためにこれを逃さねぇよ！"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2441
@@ -3882,11 +4677,13 @@ msgid ""
 "So this bastard mage thinks he can just waltz in here and 'absorb' my future "
 "culinary masterpiece?! Not on my watch!"
 msgstr ""
+"それで、このいやな魔術師野郎は、ただ踊るようにここへ来て、儂の未来の傑作料理"
+"を「吸収」出来ると考えているのか？ そうはさせんぞ！"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2445
 msgid "Ach, this is too complicated fer me ta figure out!"
-msgstr ""
+msgstr "アッツ、これは俺が理解するのには複雑過ぎる！"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2449
@@ -3894,6 +4691,8 @@ msgid ""
 "KEIRON! You sir have lived the life of a COWARD and a TRAITOR! Now learn to "
 "die like a SOLDIER!"
 msgstr ""
+"KEIRON！ 貴様は卑怯者と反逆者としての人生を生きてきた！ 今度は戦士の様に死ぬ"
+"ことを学べ！"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2453
@@ -3901,6 +4700,8 @@ msgid ""
 "If the ooze is supposed to be the bad guy, I guess that makes this Master "
 "Keiron fellow the REALLY bad guy!"
 msgstr ""
+"もし「泥」が悪者だとするなら、俺はそれを造った、この支配者 Keiron って奴が本"
+"物の悪者だと思うぜ！"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2457
@@ -3909,6 +4710,8 @@ msgid ""
 "to let my customers' inherent nastiness get in the way of making a hefty "
 "profit!"
 msgstr ""
+"ご心配めさるな、我々の間の契約は引き続き有効です！ 私は、顧客につきものの厄介"
+"者に、大きな利益を得ることを邪魔させないことを主眼にします！"
 
 #. [message]: id=Dryad
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2461
@@ -3917,6 +4720,9 @@ msgid ""
 "far worse off if the power-crazed Imperial traitors win the battle today. I "
 "will continue to help you...for now!"
 msgstr ""
+"あなたは自然に反する、忌まわしい「泥」の生き物です！ それでも、もし力に狂った"
+"帝国の反逆者が今日の闘いに勝てば、Pinewood での暮らしは、はるかに悪くなるで"
+"しょう。私は引き続きあなたを助けます……当分の間は！"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2465
@@ -3925,6 +4731,9 @@ msgid ""
 "depredations. Thanks to the ooze creature, Blackfang is no more. We'll "
 "continue helping the ooze creature for now."
 msgstr ""
+"私は「黒き牙」の略奪を終わらせることをエルフの評議会に宣誓しました。「泥」の"
+"おかげで、「黒き牙」はもういません。当面、私たちは引き続き「泥」の生き物を助"
+"けます。"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2469
@@ -3932,6 +4741,8 @@ msgid ""
 "If you say so Kirielle. I just wish things didn't always have to be so "
 "complicated."
 msgstr ""
+"Kirielle、あなたがそう言うなら。私はただ、物事がいつもそれほど複雑でなければ"
+"良いのにと思うわ。"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2516
@@ -3939,91 +4750,95 @@ msgid ""
 "Ack! Why attack an innocent arms merchant like myself? I would have sold you "
 "quality weapons at an affordable price!"
 msgstr ""
+"クッ！ なぜ俺みたいな無害な武器商人を攻撃する？ 俺はあんたに、質の良い武器を"
+"手頃な値段で売ったやったってのに！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2534
 msgid "Ach! I hope there's lots of booze in Heaven..."
-msgstr ""
+msgstr "アッツ！ 天国には、酒がいっぱいあります様に……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2545
 msgid "Ugn! I go...to meet...Pelor..."
-msgstr ""
+msgstr "ウグッ！ 私は……Pelor に会いに……行く……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2556
 msgid "Fiend! I hope Aurelia kills...you...all...ugn..."
-msgstr ""
+msgstr "悪魔め！ Aurelia がお前たちを……皆……殺してくれ……うぅ…"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2567
 msgid "No! I'm too pretty to die!"
-msgstr ""
+msgstr "嫌！ 私は死ぬには綺麗過ぎる！"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2571
 msgid "Corinna! NOOOOO!!!!"
-msgstr ""
+msgstr "Corinna！ ノォオオオオ！！！！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2594
 msgid "Wracked with grief, Sir Dryden has abandoned the fight!"
-msgstr ""
+msgstr "深い悲しみに苦しめられ、Dryden 卿は戦闘を放棄しました！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2608
 msgid "I hope you drown in my blood, scum!"
-msgstr ""
+msgstr "貴様が俺の血で溺れることを願うぞ、人間の屑め！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2619
 msgid "Damn, now my book on exotic cooking will never be finished!"
-msgstr ""
+msgstr "くそっ。今、儂の異国料理の本は決して完成しなくなった！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2630
 msgid "I did my best...my student Aurelia will finish this...ugn..."
 msgstr ""
+"俺は全力を尽くした……俺の教え子、Aurelia がこれを終わらせてくれるだろう……うぅ"
+"……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2641
 msgid "My DEATH will be AVENGED!!!"
-msgstr ""
+msgstr "私の死は復讐されるだろう！！！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2652
 msgid "Ach, I've finally met my match!"
-msgstr ""
+msgstr "アッツ、俺はついに好敵手と出会った！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2663
 msgid "Damn, I didn't count on them being this strong!"
-msgstr ""
+msgstr "しまった、奴らがこれほど強いとは計算していなかった！"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2667
 msgid "Kirielle, please don't die!!! I'm coming to help you!"
-msgstr ""
+msgstr "Kirielle、お願いだから死なないで！！！ 私が助けに行くから！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2674
 msgid "Bryony has abandoned the fight!"
-msgstr ""
+msgstr "Bryony は戦闘を放棄しました！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2686
 msgid "Kirielle, I'm sorry..."
-msgstr ""
+msgstr "Kirielle、ごめんね……"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2690
 msgid "Bryony, you can't die!!! I'm coming to help you!"
-msgstr ""
+msgstr "Bryony、あなたは死なない！！！ 私が助けにいくから！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2697
 msgid "Kirielle has abandoned the fight!"
-msgstr ""
+msgstr "Kirielle は戦闘を放棄しました！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2709
@@ -4031,6 +4846,8 @@ msgid ""
 "Why did it have to end like this! Corinna...has not been redeemed yet..."
 "ugn..."
 msgstr ""
+"なぜ、この様に終わらなければならないのか？ Corinna は……まだ救済されていない……"
+"うぅ……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2724
@@ -4038,6 +4855,8 @@ msgid ""
 "I die now, alas, alas! I only wish to gaze into the angelic face of my Muse "
 "one last time..."
 msgstr ""
+"私は今死ぬ。あぁ、あぁ！ 最後に一度だけ、私の芸術の女神の天使のような顔を見つ"
+"めたい……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2735
@@ -4045,26 +4864,28 @@ msgid ""
 "Aurelia, my love, I'm sorry, they're too strong! I'll wait for you...in the "
 "next world..."
 msgstr ""
+"Aurelia、我が愛しき人。済まない、彼らは強すぎる！ 僕は君を……次の世界で待って"
+"いる……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2746
 msgid "Usurpers! Stay away...from...my...land...ugn..."
-msgstr ""
+msgstr "強奪者め！ 私の……土地……から……出て行け……うぅ……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2757
 msgid "Now I return to the Earth..."
-msgstr ""
+msgstr "今私は、大地へと還る……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2768
 msgid "I may die now but the Empire is eternal!"
-msgstr ""
+msgstr "自分は今死ぬかもしれないが、帝国は不滅だ！"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2779
 msgid "(Grunts in pain)"
-msgstr ""
+msgstr "（痛みのため唸ります）"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2790
@@ -4072,16 +4893,18 @@ msgid ""
 "Maybe getting into the bodyguard business wasn't such a good idea after "
 "all..."
 msgstr ""
+"多分、護衛の仕事を始めたのは、そんな名案じゃなかったってことだな、結局のとこ"
+"ろ……"
 
 #. [message]: speaker=unit
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2812
 msgid "No!!! Absolute power was within my...grasp...ugnh..."
-msgstr ""
+msgstr "駄目だ！！！ 絶対的な力が私の……手の中に……うぅ……"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2819
 msgid "Keiron's remaining men flee in disarray!"
-msgstr ""
+msgstr "Keiron の残された兵士たちは、混乱して逃げ出します！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2834
@@ -4092,6 +4915,11 @@ msgid ""
 "mere mention of your name, and those few who dare oppose you will be quickly "
 "devoured."
 msgstr ""
+"力と安全を求めるあなたの探求は、完了しました！ 造り主の死と共に、大きな力があ"
+"なたを貫いて、押し寄せてくるのを感じます。そして、あなたの無定形な姿は、力で"
+"震えます。これから先、人間とオークは単にあなたの名前に言及するだけで、恐怖で"
+"身震いするでしょう。そして、敢えてあなたに反抗する僅かな者たちも、速やかにあ"
+"なたに貪り食われるでしょう。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2839
@@ -4100,6 +4928,9 @@ msgid ""
 "roam the vast wilderness in search of prey. In the new natural order you've "
 "created, you are at the very top of the food chain!"
 msgstr ""
+"Pinewood は文明の力から放棄され、置き去りにされたあなたは、獲物を求めて自由に"
+"広大な原野を放浪することが出来ます。あなたによって創造された、新しい自然の秩"
+"序の中で、あなたは食物連鎖のはるか最高位にいます！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2844
@@ -4108,6 +4939,8 @@ msgid ""
 "If you liked this campaign check out the sort-of sequel, Elvish Dynasty! "
 "Coming soon to the Wesnoth add-on server!"
 msgstr ""
+"もしあなたがこのキャンペーンを気に入ったのなら、続編と言っても良い「エルフの"
+"王朝」を引き出して見てください！ Wesnoth のアドオンサーバで近日公開！"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2882
@@ -4118,6 +4951,10 @@ msgid ""
 "but they are also the first to admit that without your leadership the fort "
 "would have fallen."
 msgstr ""
+"結び：あなたは黒い群れと、あなたの邪悪な造り主を打ち破りました！ 造り主の死と"
+"共に、大きな力が、あなたを貫いて押し寄せてくるのを感じます。そして、あなたの"
+"無定形な姿は力で震えます。生き残った街の人々は、あなたに用心していますが、彼"
+"らはまた、第一にあなたの指導力なしでは砦が陥落していたことを認めます。"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2887
@@ -4126,11 +4963,14 @@ msgid ""
 "even offer you honorary Pinewood citizenship! Your time amongst the Solids "
 "has given you much to think about..."
 msgstr ""
+"彼らはあなたが犯したかも知れない、ありとあらゆる罪を許すと申し出、その上、あ"
+"なたを名誉 Pinewood 町民にしても良いとさえ言います！ あなたには「硬い者たち」"
+"の中で考える時間がたくさん与えられました……"
 
 #. [message]: speaker=narrator
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2892
 msgid "The fate of the surviving townsfolk:"
-msgstr ""
+msgstr "生き残った街の人々の運命："
 
 #. [message]: id=Sithras
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2897
@@ -4138,13 +4978,15 @@ msgid ""
 "Proposes marriage to you after the battle, saying that 'We'll get through "
 "this ooze issue together.'"
 msgstr ""
+"戦いの後、「一緒にこの『泥問題』を切り抜けよう」と言って、あなたに結婚を申し"
+"込みます。"
 
 #. [message]: id=Ram Aide
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2901
 msgid ""
 "Tries to get the townsfolk to buy him a new gigantic barrel of booze..."
 "unsuccessfully."
-msgstr ""
+msgstr "街の人々に、新しく巨大な酒樽を彼のために買わせようとして……失敗します。"
 
 #. [message]: id=High Priest Jal
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2905
@@ -4152,6 +4994,8 @@ msgid ""
 "Takes charge of the town's wounded after the battle. Tries to get you to "
 "convert to the worship of Pelor."
 msgstr ""
+"戦いの後、街の負傷者を引き受けます。Pelor への崇拝に、あなたを改宗させようと"
+"努力します。"
 
 #. [message]: id=Kirielle the Realist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2909
@@ -4159,11 +5003,13 @@ msgid ""
 "The mysterious elf ranger disappears shortly after the battle and is not "
 "seen again."
 msgstr ""
+"謎めいたエルフのレンジャーは戦いの直後に姿を消し、再び見ることはありませんで"
+"した。"
 
 #. [message]: id=Bryony the Idealist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2913
 msgid "Disappears with her companion, Kirielle."
-msgstr ""
+msgstr "彼女の仲間の Kirielle と共に消えました。"
 
 #. [message]: id=Frist
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2917
@@ -4171,6 +5017,8 @@ msgid ""
 "Redoubles his efforts at training others in combat. Helps re-establish the "
 "Pinewood Militia."
 msgstr ""
+"戦闘以外に、訓練における彼の努力を倍加しました。Pinewood の民兵を再確立するこ"
+"とを助けます。"
 
 #. [message]: id=Livius
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2921
@@ -4179,6 +5027,9 @@ msgid ""
 "delicacy after you become the town hero. Goes off in search of other exotic "
 "ingredients for his recipes."
 msgstr ""
+"あなたが街の英雄となった後、あなたの死体を料理し、異国風の珍味として売るとい"
+"う彼の計画を諦めました。彼の調理法のため、他の異国風の材料を求めて立ち去りま"
+"す。"
 
 #. [message]: id=Jedd
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2925
@@ -4186,21 +5037,23 @@ msgid ""
 "After complaining for years about government bureaucrats that never did an "
 "honest day's work, Jedd is elected Mayor."
 msgstr ""
+"政府の官僚たちに、一日真っ当に働くことが無いと、長年不平を言った後、Jedd は町"
+"長に選出されます。"
 
 #. [message]: id=Valin
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2929
 msgid "Takes his show on the road."
-msgstr ""
+msgstr "彼の見せ物の巡業を続けます。"
 
 #. [message]: id=Captain Koltz
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2933
 msgid "Rises to the rank of Colonel in the Imperial Army."
-msgstr ""
+msgstr "帝国軍で大佐にまで昇進します。"
 
 #. [message]: id=Guthry
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2937
 msgid "Becomes a land speculator."
-msgstr ""
+msgstr "土地の山師になります。"
 
 #. [message]: id=Brock
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2941
@@ -4208,6 +5061,8 @@ msgid ""
 "Continues to run his tavern. People from across the Empire come to challenge "
 "him to an armwrestling match; only a handful are able to best him."
 msgstr ""
+"彼の宿屋の営業を続けます。帝国から来た人々が、彼に腕相撲の勝負を挑みます。一"
+"握りのものだけが、彼を負かすことが出来ます。"
 
 #. [message]: id=Dryad
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2945
@@ -4215,16 +5070,17 @@ msgid ""
 "The tree-fairy returns to her tree once she is satisfied that Nature's "
 "balance has been restored."
 msgstr ""
+"一旦自然の調和が回復されたことに満足すると、木の精は彼女の木に戻ります。"
 
 #. [message]: id=Sergeant Ryn
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2949
 msgid "Becomes the new leader of the Pinewood Militia."
-msgstr ""
+msgstr "Pinewood の民兵の、新しい指揮官になります。"
 
 #. [message]: id=Haffuz the Slaver
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2953
 msgid "Gets out of the bodyguard business in search of easier money."
-msgstr ""
+msgstr "より簡単な金儲けを求めて、護衛の仕事から脱します。"
 
 #. [message]: id=Fontaine
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2957
@@ -4232,6 +5088,8 @@ msgid ""
 "His artwork becomes famous and much sought after. He dedicates his paintings "
 "to his Muse."
 msgstr ""
+"彼の作品は有名になり、大いに捜し求められます。彼は彼の絵を、彼の芸術の女神に"
+"捧げます。"
 
 #. [message]: id=Sir Dryden
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2974
@@ -4239,6 +5097,8 @@ msgid ""
 "Marries the love of his life, Corinna. He thanks you for helping him get the "
 "'wedding ring.'"
 msgstr ""
+"彼の生涯の恋人、Corinna と結ばれます。彼は、彼が「結婚指輪」を得るのを助けた"
+"ことであなたに感謝します。"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:2993
@@ -4246,11 +5106,13 @@ msgid ""
 "Without Sir Dryden's moral guidance, Corinna overcomes the power of the Ring "
 "of Opposite Alignment and returns to studying the Dark Arts."
 msgstr ""
+"Dryden 卿の道徳の導きなしでは、Corinna は「反転の指輪」の力を打ち負かし、闇の"
+"術の研究に戻ってしまいます。"
 
 #. [message]: id=Corinna
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:3006
 msgid "Becomes even more reclusive as she delves into the Dark Arts."
-msgstr ""
+msgstr "闇の術を探求するため、彼女はますます引きこもる様になります。"
 
 #. [message]: id=Master Ooze
 #: Ooze_Mini_Campaign/scenarios/4_Pinewood_Siege.cfg:3013
@@ -4261,11 +5123,17 @@ msgid ""
 "extraordinary journey. You're certain that your future promises many great "
 "opportunities; all that's left to do is to decide which path to take!"
 msgstr ""
+"あなたは今日、偉大な勝利を収めました。未来はあなたに前進するよう手招きしま"
+"す。そして、あなたはあなたがどれほど遠くへ来たかに関して熟考し続けます……暗い"
+"洞窟の原始的な生き物から、街を救った英雄として開化するまで、それは並外れた旅"
+"でした。あなたはあなたの未来が、多くの素晴らしい機会を約束していることを確信"
+"しています。やり残したことの全ては、どの道を選択するか決めるということだけで"
+"す！"
 
 #. [unit_type]: id=Elvish Enchantress Ooze, race=elf
 #: Ooze_Mini_Campaign/units/Elvish_Enchantress_Ooze.cfg:4
 msgid "female^Elvish Enchantress"
-msgstr ""
+msgstr "エルフの女詠唱者"
 
 #. [unit_type]: id=Elvish Enchantress Ooze, race=elf
 #: Ooze_Mini_Campaign/units/Elvish_Enchantress_Ooze.cfg:20
@@ -4278,32 +5146,39 @@ msgid ""
 "\n"
 "Special Notes:"
 msgstr ""
+"エルフ族の魔法は人間の魔法とはまったく異なっています。このため、人間にはほと"
+"んどその魔法を普遍的に理解することはおろか、使うことすらもできません。同様"
+"に、その魔法を習得している者についても不可解なものです。彼らが彼らの一族に崇"
+"拝されていると言われることはあっても、その社会の中での彼らの実際の役割や目的"
+"について語られることはほとんどありません。\n"
+"\n"
+"特記事項："
 
 #. [attack]: type=impact
 #: Ooze_Mini_Campaign/units/Elvish_Enchantress_Ooze.cfg:27
 #: Ooze_Mini_Campaign/units/Elvish_Sorceress_Ooze.cfg:29
 #: Ooze_Mini_Campaign/units/Elvish_Shaman_Ooze.cfg:30
 msgid "staff"
-msgstr ""
+msgstr "杖"
 
 #. [attack]: type=impact
 #: Ooze_Mini_Campaign/units/Elvish_Enchantress_Ooze.cfg:37
 #: Ooze_Mini_Campaign/units/Elvish_Sorceress_Ooze.cfg:39
 #: Ooze_Mini_Campaign/units/Elvish_Shaman_Ooze.cfg:39
 msgid "entangle"
-msgstr ""
+msgstr "巻き込み"
 
 #. [attack]: type=arcane
 #: Ooze_Mini_Campaign/units/Elvish_Enchantress_Ooze.cfg:48
 #: Ooze_Mini_Campaign/units/Elvish_Sylph_Ooze.cfg:63
 #: Ooze_Mini_Campaign/units/Elvish_Sorceress_Ooze.cfg:50
 msgid "faerie fire"
-msgstr ""
+msgstr "妖精の炎"
 
 #. [unit_type]: id=Elvish Shaman Ooze, race=elf
 #: Ooze_Mini_Campaign/units/Elvish_Shaman_Ooze.cfg:4
 msgid "female^Elvish Shaman"
-msgstr ""
+msgstr "エルフの巫女"
 
 #. [unit_type]: id=Elvish Shaman Ooze, race=elf
 #: Ooze_Mini_Campaign/units/Elvish_Shaman_Ooze.cfg:23
@@ -4319,11 +5194,19 @@ msgid ""
 "\n"
 "Special Notes:"
 msgstr ""
+"存在の本質的な一部分は妖精であるため、エルフたちは生まれながらに魔法の力を"
+"持っています。彼らが戦いの中で協力者として呼び出す時、彼らの自然界との密接な"
+"関係に気づかされます。彼らの森を彷徨う敵は、自分たちが立つ、脅威には程遠いた"
+"だの根っこに絡みつかれている事に、間もなく気づくかもしれません。\n"
+"\n"
+"エルフの治癒能力もまた、戦闘における重要な効用のために注目に値します。\n"
+"\n"
+"特記事項："
 
 #. [unit_type]: id=Elvish Sorceress Ooze, race=elf
 #: Ooze_Mini_Campaign/units/Elvish_Sorceress_Ooze.cfg:4
 msgid "female^Elvish Sorceress"
-msgstr ""
+msgstr "エルフの女魔法使い"
 
 #. [unit_type]: id=Elvish Sorceress Ooze, race=elf
 #: Ooze_Mini_Campaign/units/Elvish_Sorceress_Ooze.cfg:22
@@ -4338,12 +5221,24 @@ msgid ""
 "\n"
 "Special Notes:"
 msgstr ""
+"妖精の世界は物質的な世界よりもはるかに強力です。単にその世界の何かを我々の世"
+"界に持ち込むだけで、強烈な結果を招く可能性があります。悪い目的で使われること"
+"は滅多にありませんが、エルフはよく理解しています。それは簡単な仕事ではなく、"
+"また、彼女たちの力を使うことは、ほとんど不健全だとみなされています。\n"
+"\n"
+"それが出来る者たちを、他の種族は大雑把に女魔法使いの肩書きで呼んでいます。そ"
+"して、確かに彼女たちはその役を務めることが出来ます。\n"
+"\n"
+"特記事項："
 
 #. [unit_type]: id=Elvish Sylph Ooze, race=elf
 #: Ooze_Mini_Campaign/units/Elvish_Sylph_Ooze.cfg:4
 msgid "female^Elvish Sylph"
-msgstr ""
+msgstr "エルフのシルフ"
 
+# #: Elvish_Sylph_Ooze.cfg:3
+# msgid "female^Elvish Sylph"
+# msgstr "エルフのシルフ"
 #. [unit_type]: id=Elvish Sylph Ooze, race=elf
 #: Ooze_Mini_Campaign/units/Elvish_Sylph_Ooze.cfg:22
 msgid ""
@@ -4354,21 +5249,27 @@ msgid ""
 "\t\n"
 "Special Notes:"
 msgstr ""
+"滅多に見られない、賢者のようなシルフは、彼らの妖精の国とありふれた自然の両方"
+"に精通しています。彼らは素晴らしい、そして時に恐ろしい力を持っていて、どちら"
+"にしても、持っていることに関するその神話は、他の種族にエルフに対する健全な恐"
+"れを抱かせます。\n"
+"\t\n"
+"特記事項："
 
 #. [attack]: type=impact
 #: Ooze_Mini_Campaign/units/Elvish_Sylph_Ooze.cfg:37
 msgid "faerie touch"
-msgstr ""
+msgstr "妖精の接触"
 
 #. [attack]: type=impact
 #: Ooze_Mini_Campaign/units/Elvish_Sylph_Ooze.cfg:50
 msgid "gossamer"
-msgstr ""
+msgstr "蜘蛛の巣"
 
 #. [unit_type]: id=Mayor, race=human
 #: Ooze_Mini_Campaign/units/Mayor.cfg:4
 msgid "Mayor"
-msgstr ""
+msgstr "町長"
 
 #. [unit_type]: id=Mayor, race=human
 #: Ooze_Mini_Campaign/units/Mayor.cfg:20
@@ -4378,16 +5279,19 @@ msgid ""
 "homes. However, if you're hurling peasants at your foes, you're clearly out "
 "of superior forces."
 msgstr ""
+"農民は田舎の経済の背骨であり、最後の頼みの綱とされる兵士です。生来好戦的では"
+"無いとは言え、彼らは頑強に彼らの家を守るでしょう。しかしながら、もしあなたが"
+"農民を敵に投げつけるなら、あなたは明確に不可抗力から脱しているでしょう。"
 
 #. [attack]: type=pierce
 #: Ooze_Mini_Campaign/units/Mayor.cfg:25 Ooze_Mini_Campaign/units/Mayor.cfg:34
 msgid "pitchfork"
-msgstr ""
+msgstr "熊手"
 
 #. [unit_type]: id=Giant Spider0, race=monster
 #: Ooze_Mini_Campaign/units/Monster_Cave_Spider0.cfg:4
 msgid "Spider Hatchling"
-msgstr ""
+msgstr "孵化した蜘蛛"
 
 #. [unit_type]: id=Giant Spider0, race=monster
 #: Ooze_Mini_Campaign/units/Monster_Cave_Spider0.cfg:18
@@ -4395,11 +5299,13 @@ msgid ""
 "The progeny of the Spider Queen. They are not yet adults, but still pose a "
 "threat to all but the most hardened adventurer."
 msgstr ""
+"蜘蛛の女王の子孫です。彼らはまだ成虫ではありませんが、それでも最も鍛え抜かれ"
+"た冒険家を除けば、誰にとっても依然として脅威です。"
 
 #. [attack]: type=blade
 #: Ooze_Mini_Campaign/units/Monster_Cave_Spider0.cfg:35
 msgid "fangs"
-msgstr ""
+msgstr "牙"
 
 #. [unit_type]: id={ID}, race=monster
 #: Ooze_Mini_Campaign/units/Monster_Giant_Ooze.cfg:22
@@ -4410,25 +5316,30 @@ msgid ""
 "of upkeep and zones of control (in other words, they do not have an upkeep "
 "cost or a zone of control)."
 msgstr ""
+"あなたは、自分が誰か、何であるかに関して、ただ漠然とした感じしかありません。"
+"あなたが知っている全ては、自分が「泥」であり、飢えているという事だけです。あ"
+"なたは獲物を攻撃し、食べることによって、複製できます。注：巨大な「泥」は、維"
+"持費と支配地域の効果に関して、レベル0の生き物と見なされます（言い換えれば、彼"
+"らに維持費はかからず、支配地域も持ちません）。"
 
 #. [attack]: type=impact
 #: Ooze_Mini_Campaign/units/Monster_Giant_Ooze.cfg:57
 msgid "engulf"
-msgstr ""
+msgstr "飲み込み"
 
 #. [attack]: type=impact
 #: Ooze_Mini_Campaign/units/Monster_Ooze.cfg:57
 #: Ooze_Mini_Campaign/units/Monster_Giant_Ooze.cfg:69
 msgid "slime glob"
-msgstr ""
+msgstr "泥の塊"
 
 #: Ooze_Mini_Campaign/units/Monster_Giant_Ooze.cfg:144
 msgid "Giant Ooze"
-msgstr ""
+msgstr "巨大な「泥」"
 
 #: Ooze_Mini_Campaign/units/Monster_Giant_Ooze.cfg:145
 msgid "Giant Ooze 2"
-msgstr ""
+msgstr "巨大な「泥」2"
 
 #. [unit_type]: id={ID}, race=monster
 #: Ooze_Mini_Campaign/units/Monster_Ooze.cfg:24
@@ -4436,11 +5347,122 @@ msgid ""
 "Oozes create progeny by devouring other creatures. They are viewed as a "
 "menace to civilization for their ability to rapidly multiply in a short time."
 msgstr ""
+"「泥」は、他の生物を貪り喰らうことによって子孫を作ります。彼らは、彼らの短期"
+"間で急速に増殖する能力によって、文明に対する脅威と見なされます。"
 
 #: Ooze_Mini_Campaign/units/Monster_Ooze.cfg:100
 msgid "Ooze"
-msgstr ""
+msgstr "「泥」"
 
 #: Ooze_Mini_Campaign/units/Monster_Ooze.cfg:101
 msgid "Ooze 2"
-msgstr ""
+msgstr "「泥」2"
+
+#~ msgid ""
+#~ "(If you still want to help Sir Dryden you can come back later with the "
+#~ "money.)"
+#~ msgstr ""
+#~ "（もしまだあなたが Dryden 卿を助けたいなら、後ほどお金を持って戻ることが出"
+#~ "来ます）"
+
+#~ msgid "(easy)"
+#~ msgstr "（簡単）"
+
+#~ msgid "(normal)"
+#~ msgstr "（普通）"
+
+#~ msgid "(hard)"
+#~ msgstr "（難しい）"
+
+#~ msgid "Home Sweet Home"
+#~ msgstr "楽しい我が家"
+
+#~ msgid ""
+#~ "(He snaps at you) Is there something that ISN'T wrong in this wicked "
+#~ "world? (He composes himself) Oh, I'm sorry ma'am. You've come to me at a "
+#~ "bad time."
+#~ msgstr ""
+#~ "（飛びかかるように）このひどい世の中に、具合の悪くないことなどあるのか？"
+#~ "（気を落ち着けて）あぁ、済まない、ご婦人。あなたは悪い時に私のところへ来"
+#~ "た。"
+
+#~ msgid "What's the problem? Maybe I could help."
+#~ msgstr "どんな問題ですか？ 多分助けられると思います。"
+
+#~ msgid "You lost 100 gold pieces!"
+#~ msgstr "あなたは金貨100枚を失った！"
+
+#~ msgid ""
+#~ "(Groans) The merchant leaves town today. There's no way I'll be able to "
+#~ "raise enough money in time. (Sigh) Thank you for all your help, milady. I "
+#~ "must now contemplate my next course of action."
+#~ msgstr ""
+#~ "（呻いて）商人は今日街を出ます。時間内に十分にお金を増やす方法はどこにもあ"
+#~ "りません。（ため息）あなたの助けに感謝します、ご婦人。私は今、今後どうする"
+#~ "かについて熟慮しなければなりません。"
+
+#~ msgid "You gained 75 gold pieces!"
+#~ msgstr "あなたは金貨75枚を得た！"
+
+#~ msgid "You earned 100 gold pieces!"
+#~ msgstr "あなたは金貨100枚を稼いだ！"
+
+#~ msgid "(Make a large donation) Here's one hundred gold pieces."
+#~ msgstr "（大金を寄付する）ここに金貨が100枚あります。"
+
+#~ msgid "You lost one hundred gold pieces!"
+#~ msgstr "あなたは金貨を100枚失った！"
+
+#~ msgid "You spent 100 gold pieces!"
+#~ msgstr "あなたは金貨100枚を支払った！"
+
+# #############
+# #: Dark_Queen.cfg:4
+# msgid "female^Dark Sorceress"
+# msgstr ""
+#~ msgid ""
+#~ "Corinna is a pretty young woman with an unsettling fascination with death."
+#~ msgstr "Corinna は、死の魅力に心を乱す、若く可憐な女性です。"
+
+#~ msgid "scepter"
+#~ msgstr "笏"
+
+#~ msgid "cold"
+#~ msgstr "冷気"
+
+# #: Dark_Queen.cfg:45
+# msgid "female^Dark Queen"
+# msgstr ""
+#~ msgid ""
+#~ "The evil queen mother Asheviere has terrorized Wesnoth for many years. "
+#~ "Her knowledge of magic makes her a worthy foe in combat, although her "
+#~ "power is mostly derived from those she commands."
+#~ msgstr ""
+#~ "邪悪な女王の祖、Asheviere は何年にも渡って Wesnoth を恐怖に陥れて来まし"
+#~ "た。彼女の魔法の知識は、戦闘において彼女を強敵にします。彼女の力のほとんど"
+#~ "は、彼女の命令から引き出されます。"
+
+#~ msgid ""
+#~ "Quintains are used to practice swordplay and jousting on. It would be "
+#~ "extremely unusual to be attacked by one."
+#~ msgstr ""
+#~ "標的は剣術と馬上槍の練習に使われます。一度でも攻撃されることは、非常に稀で"
+#~ "す。"
+
+#~ msgid "flail"
+#~ msgstr "竿"
+
+#~ msgid "Ancient Wose"
+#~ msgstr "古代ウーズ"
+
+#~ msgid ""
+#~ "The Forest Defender has linked her spirit to the physical manifestation "
+#~ "of Shinseki Forest. If you consume the Forest Heart, you'll consume her "
+#~ "sprit as well, thus ending the threat."
+#~ msgstr ""
+#~ "森の守護者は Shinseki の森の物理的な顕現に、彼女の精神を結びつけました。も"
+#~ "しあなたが森の中心を飲み尽くすなら、あなたは彼女の精神をも飲み尽くし、従っ"
+#~ "て脅威の終わりとなるでしょう。"
+
+#~ msgid "crush"
+#~ msgstr "圧搾"
